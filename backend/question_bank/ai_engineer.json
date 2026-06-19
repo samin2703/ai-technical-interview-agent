@@ -1,0 +1,856 @@
+[
+  {
+    "role": "AI Engineer",
+    "category": "Machine Learning",
+    "difficulty": "Junior",
+    "skill": "ML Fundamentals",
+    "question": "What is overfitting?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Machine Learning",
+    "difficulty": "Junior",
+    "skill": "ML Fundamentals",
+    "question": "What is the difference between training and testing data?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Machine Learning",
+    "difficulty": "Junior",
+    "skill": "Supervised Learning",
+    "question": "What is the difference between classification and regression? Give a real-world example of each."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Machine Learning",
+    "difficulty": "Junior",
+    "skill": "Model Evaluation",
+    "question": "What is the difference between training accuracy and validation accuracy, and why does the gap between them matter?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Machine Learning",
+    "difficulty": "Junior",
+    "skill": "Overfitting",
+    "question": "What is overfitting and what are two simple techniques you can use to reduce it?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Machine Learning",
+    "difficulty": "Junior",
+    "skill": "Feature Engineering",
+    "question": "Why is feature scaling important, and when would you use standardization versus normalization?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Machine Learning",
+    "difficulty": "Junior",
+    "skill": "Algorithms",
+    "question": "Explain how a decision tree makes predictions and what criteria it uses to split nodes."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Machine Learning",
+    "difficulty": "Mid",
+    "skill": "Ensemble Methods",
+    "question": "Explain the difference between bagging and boosting. When would you choose Random Forest over XGBoost?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Machine Learning",
+    "difficulty": "Mid",
+    "skill": "Hyperparameter Tuning",
+    "question": "Compare grid search, random search, and Bayesian optimization for hyperparameter tuning. What are the trade-offs of each?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Machine Learning",
+    "difficulty": "Mid",
+    "skill": "Imbalanced Data",
+    "question": "You have a dataset with 95% negative and 5% positive samples. Walk me through your strategy to handle this class imbalance."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Machine Learning",
+    "difficulty": "Mid",
+    "skill": "Model Evaluation",
+    "question": "When is AUC-ROC a misleading metric and what would you use instead? Provide a concrete scenario."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Machine Learning",
+    "difficulty": "Mid",
+    "skill": "Dimensionality Reduction",
+    "question": "Explain PCA intuitively and describe a production scenario where you would and would not use it."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Machine Learning",
+    "difficulty": "Senior",
+    "skill": "Model Design",
+    "question": "How do you design a machine learning system that must make real-time predictions under 50ms latency constraints while maintaining high accuracy?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Machine Learning",
+    "difficulty": "Senior",
+    "skill": "Causality",
+    "question": "Explain the difference between correlation and causation in the context of ML. How would you design an experiment to establish causal relationships in a production ML system?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Machine Learning",
+    "difficulty": "Senior",
+    "skill": "Distribution Shift",
+    "question": "Your model's performance degrades 3 months after deployment. Describe your systematic approach to diagnosing and resolving distribution shift."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Machine Learning",
+    "difficulty": "Senior",
+    "skill": "Fairness & Bias",
+    "question": "How would you audit a credit scoring model for demographic bias and what mitigation strategies would you implement without significantly sacrificing accuracy?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Machine Learning",
+    "difficulty": "Senior",
+    "skill": "System Design",
+    "question": "Design a multi-armed bandit system for real-time content personalization. How do you balance exploration vs. exploitation at scale?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Deep Learning",
+    "difficulty": "Junior",
+    "skill": "Neural Networks",
+    "question": "What is backpropagation and why is it essential for training neural networks?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Deep Learning",
+    "difficulty": "Junior",
+    "skill": "Activation Functions",
+    "question": "What is the vanishing gradient problem and how does ReLU help address it compared to sigmoid?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Deep Learning",
+    "difficulty": "Junior",
+    "skill": "Regularization",
+    "question": "What is dropout and at what phase of training and inference do you apply it?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Deep Learning",
+    "difficulty": "Junior",
+    "skill": "Optimization",
+    "question": "What is the role of the learning rate in training a neural network and what happens when it is too high or too low?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Deep Learning",
+    "difficulty": "Junior",
+    "skill": "CNN",
+    "question": "What is a convolutional layer and why is it more suitable for image data than a fully connected layer?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Deep Learning",
+    "difficulty": "Mid",
+    "skill": "Transfer Learning",
+    "question": "Describe the process of fine-tuning a pretrained model. When would you freeze layers versus train the entire network?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Deep Learning",
+    "difficulty": "Mid",
+    "skill": "Optimization",
+    "question": "Compare Adam, SGD with momentum, and RMSProp. In what scenarios would you prefer each optimizer?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Deep Learning",
+    "difficulty": "Mid",
+    "skill": "Architecture",
+    "question": "Explain the architecture of an LSTM and how it solves the long-term dependency problem compared to a vanilla RNN."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Deep Learning",
+    "difficulty": "Mid",
+    "skill": "Batch Normalization",
+    "question": "How does batch normalization work and what problems does it solve? What are its limitations?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Deep Learning",
+    "difficulty": "Mid",
+    "skill": "Loss Functions",
+    "question": "When would you use focal loss instead of binary cross-entropy? Implement the formula and explain each component."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Deep Learning",
+    "difficulty": "Senior",
+    "skill": "Architecture Design",
+    "question": "Walk me through designing a custom neural network architecture for a multimodal task combining text and images. What are the key considerations?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Deep Learning",
+    "difficulty": "Senior",
+    "skill": "Training at Scale",
+    "question": "Explain the differences between data parallelism and model parallelism for distributed training. When would you use each?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Deep Learning",
+    "difficulty": "Senior",
+    "skill": "Model Compression",
+    "question": "Compare quantization, pruning, and knowledge distillation for model compression. Design a compression pipeline for deploying a large model on edge devices."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Deep Learning",
+    "difficulty": "Senior",
+    "skill": "Attention Mechanism",
+    "question": "Derive the scaled dot-product attention mechanism. Why is the scaling factor of sqrt(d_k) necessary and what happens without it?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Deep Learning",
+    "difficulty": "Senior",
+    "skill": "Debugging",
+    "question": "Your deep learning model's loss is not decreasing after 10 epochs. Describe a systematic debugging checklist you would follow."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Python",
+    "difficulty": "Junior",
+    "skill": "Data Structures",
+    "question": "What is the difference between a list and a tuple in Python? When would you prefer one over the other in a data processing pipeline?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Python",
+    "difficulty": "Junior",
+    "skill": "Libraries",
+    "question": "What are the main differences between NumPy arrays and Python lists? Why are NumPy arrays preferred for numerical computation?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Python",
+    "difficulty": "Junior",
+    "skill": "Pandas",
+    "question": "How do you handle missing values in a Pandas DataFrame? Describe at least three methods."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Python",
+    "difficulty": "Junior",
+    "skill": "Functions",
+    "question": "Explain list comprehensions and generator expressions. When is a generator more appropriate than a list?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Python",
+    "difficulty": "Junior",
+    "skill": "OOP",
+    "question": "What is the purpose of __init__ and __repr__ in a Python class? Write a simple example class for a ML Dataset object."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Python",
+    "difficulty": "Mid",
+    "skill": "Performance",
+    "question": "You have a Python data preprocessing pipeline that is too slow. Walk me through profiling it and at least three strategies to optimize performance."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Python",
+    "difficulty": "Mid",
+    "skill": "Concurrency",
+    "question": "Explain the difference between threading, multiprocessing, and asyncio in Python. Which would you use for a CPU-bound ML data pipeline and why?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Python",
+    "difficulty": "Mid",
+    "skill": "Decorators",
+    "question": "Write a Python decorator that logs the execution time of any function. How would you extend this for monitoring in a production ML system?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Python",
+    "difficulty": "Mid",
+    "skill": "Testing",
+    "question": "How would you write unit tests for a feature engineering function using pytest? What edge cases would you cover?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Python",
+    "difficulty": "Mid",
+    "skill": "Memory Management",
+    "question": "You need to process a 100GB CSV file in Python on a machine with 16GB RAM. What approaches would you use?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Python",
+    "difficulty": "Senior",
+    "skill": "Package Design",
+    "question": "How would you design a reusable, production-grade Python ML library? Describe your approach to packaging, versioning, dependency management, and backward compatibility."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Python",
+    "difficulty": "Senior",
+    "skill": "C Extensions",
+    "question": "Explain how Python's GIL affects ML workloads and how tools like Cython, ctypes, or Numba can be used to bypass it."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Python",
+    "difficulty": "Senior",
+    "skill": "Design Patterns",
+    "question": "Explain how you would implement a plugin-based architecture in Python to allow interchangeable ML model backends. Which design pattern would you use?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Python",
+    "difficulty": "Senior",
+    "skill": "Custom PyTorch",
+    "question": "Write a custom PyTorch Dataset and DataLoader for a multi-label classification task with dynamic augmentation applied only during training."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Python",
+    "difficulty": "Senior",
+    "skill": "Metaclasses",
+    "question": "What are metaclasses in Python and give a practical AI engineering scenario where using one would be justified over simpler alternatives."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Statistics",
+    "difficulty": "Junior",
+    "skill": "Probability",
+    "question": "What is the difference between probability and likelihood? Provide an example in the context of a machine learning model."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Statistics",
+    "difficulty": "Junior",
+    "skill": "Descriptive Statistics",
+    "question": "What is the difference between mean, median, and mode? In a dataset with many outliers, which is most appropriate to report?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Statistics",
+    "difficulty": "Junior",
+    "skill": "Distributions",
+    "question": "What is a normal distribution and why is it so commonly assumed in ML models? Give an example where this assumption breaks down."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Statistics",
+    "difficulty": "Junior",
+    "skill": "Hypothesis Testing",
+    "question": "What is a p-value and what does it mean when a result is statistically significant at p < 0.05?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Statistics",
+    "difficulty": "Junior",
+    "skill": "Correlation",
+    "question": "What is the difference between Pearson and Spearman correlation? When would you use each?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Statistics",
+    "difficulty": "Mid",
+    "skill": "Bayesian Statistics",
+    "question": "Explain Bayes' theorem and how it is used in a Naive Bayes classifier. What is the 'naive' assumption and when does it fail?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Statistics",
+    "difficulty": "Mid",
+    "skill": "A/B Testing",
+    "question": "Walk me through designing a statistically valid A/B test for a new ML-powered recommendation feature. How do you determine sample size?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Statistics",
+    "difficulty": "Mid",
+    "skill": "Confidence Intervals",
+    "question": "What is a confidence interval and how would you use bootstrapping to compute one for a model's F1 score?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Statistics",
+    "difficulty": "Mid",
+    "skill": "Statistical Tests",
+    "question": "When would you use a t-test versus a Mann-Whitney U test? Apply this reasoning to evaluating two model versions."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Statistics",
+    "difficulty": "Mid",
+    "skill": "MLE",
+    "question": "Explain Maximum Likelihood Estimation. How does it relate to minimizing cross-entropy loss in a classification model?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Statistics",
+    "difficulty": "Senior",
+    "skill": "Causal Inference",
+    "question": "Explain the difference between observational studies and randomized controlled trials in the context of ML evaluation. How do propensity score matching help?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Statistics",
+    "difficulty": "Senior",
+    "skill": "Bayesian Inference",
+    "question": "Compare frequentist and Bayesian approaches to model evaluation. When would you advocate for a Bayesian A/B test over a frequentist one in a production system?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Statistics",
+    "difficulty": "Senior",
+    "skill": "Experimental Design",
+    "question": "How would you detect and handle multiple testing problems when running simultaneous A/B tests across many model features?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Statistics",
+    "difficulty": "Senior",
+    "skill": "Survival Analysis",
+    "question": "Explain how survival analysis can be applied to a customer churn prediction problem. What are the advantages over standard binary classification?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Statistics",
+    "difficulty": "Senior",
+    "skill": "Information Theory",
+    "question": "Explain KL divergence and its role in variational autoencoders. How does it differ from Jensen-Shannon divergence and when would you prefer each?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Data Engineering",
+    "difficulty": "Junior",
+    "skill": "Data Pipelines",
+    "question": "What is ETL and how does it differ from ELT? Give an example of when you would use each in an ML context."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Data Engineering",
+    "difficulty": "Junior",
+    "skill": "SQL",
+    "question": "Write a SQL query to find the top 5 customers by total purchase amount, along with the number of purchases they made."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Data Engineering",
+    "difficulty": "Junior",
+    "skill": "Data Formats",
+    "question": "What are the differences between CSV, JSON, Parquet, and Avro? Which would you use for storing large ML training datasets and why?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Data Engineering",
+    "difficulty": "Junior",
+    "skill": "Data Quality",
+    "question": "What are the most common data quality issues you would check for before training a machine learning model?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Data Engineering",
+    "difficulty": "Junior",
+    "skill": "Databases",
+    "question": "What is the difference between a relational database and a NoSQL database? When would you use a NoSQL database in an ML project?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Data Engineering",
+    "difficulty": "Mid",
+    "skill": "Stream Processing",
+    "question": "Compare Apache Kafka and Apache Spark Streaming for real-time ML feature generation. When would you use each?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Data Engineering",
+    "difficulty": "Mid",
+    "skill": "Feature Stores",
+    "question": "What is a feature store and what problems does it solve in a large-scale ML system? Describe a scenario where it provides clear value."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Data Engineering",
+    "difficulty": "Mid",
+    "skill": "Data Versioning",
+    "question": "How would you version datasets for reproducible ML experiments? Describe the tools and strategies you would use."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Data Engineering",
+    "difficulty": "Mid",
+    "skill": "Orchestration",
+    "question": "How would you design an Apache Airflow DAG for a daily ML training pipeline? What are the key failure modes and how would you handle them?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Data Engineering",
+    "difficulty": "Mid",
+    "skill": "Data Lakehouse",
+    "question": "Explain the concept of a data lakehouse. How does Delta Lake or Apache Iceberg improve upon a traditional data lake for ML workflows?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Data Engineering",
+    "difficulty": "Senior",
+    "skill": "System Design",
+    "question": "Design a scalable data ingestion and feature engineering platform that serves both batch training and real-time inference for 10 million daily users."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Data Engineering",
+    "difficulty": "Senior",
+    "skill": "Data Governance",
+    "question": "How would you implement data lineage tracking and governance in an ML platform to comply with GDPR, including the right to be forgotten?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Data Engineering",
+    "difficulty": "Senior",
+    "skill": "Performance Optimization",
+    "question": "Your Spark job processing 10TB of training data takes 6 hours. Walk me through diagnosing the bottleneck and optimizing it."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Data Engineering",
+    "difficulty": "Senior",
+    "skill": "Architecture",
+    "question": "Compare Lambda and Kappa architectures for an ML system requiring both historical batch retraining and real-time feature updates. Which would you choose and why?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Data Engineering",
+    "difficulty": "Senior",
+    "skill": "Vector Databases",
+    "question": "Compare Pinecone, Weaviate, and pgvector for storing and retrieving embeddings at scale. What are the trade-offs for a production RAG system?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "MLOps",
+    "difficulty": "Junior",
+    "skill": "Experiment Tracking",
+    "question": "What is experiment tracking and why is it important? What information would you log for each training run?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "MLOps",
+    "difficulty": "Junior",
+    "skill": "Model Deployment",
+    "question": "What is the difference between batch inference and real-time inference? Give an example use case for each."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "MLOps",
+    "difficulty": "Junior",
+    "skill": "Containerization",
+    "question": "What is Docker and why is it useful for deploying ML models? What would you include in a Dockerfile for a Python ML application?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "MLOps",
+    "difficulty": "Junior",
+    "skill": "Version Control",
+    "question": "How do you version control machine learning models and why is model versioning different from code versioning?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "MLOps",
+    "difficulty": "Junior",
+    "skill": "Model Monitoring",
+    "question": "What is data drift and how would you detect it in a production ML system?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "MLOps",
+    "difficulty": "Mid",
+    "skill": "CI/CD for ML",
+    "question": "Design a CI/CD pipeline for an ML model. What validation steps would you include before promoting a model to production?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "MLOps",
+    "difficulty": "Mid",
+    "skill": "Model Registry",
+    "question": "What is an ML model registry and how does it integrate with the model deployment lifecycle? Describe a workflow using MLflow."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "MLOps",
+    "difficulty": "Mid",
+    "skill": "A/B Deployment",
+    "question": "Compare blue-green deployment, canary releases, and shadow mode for deploying a new ML model. Which would you choose for a high-risk fraud detection model?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "MLOps",
+    "difficulty": "Mid",
+    "skill": "Infrastructure",
+    "question": "Explain the trade-offs between deploying ML models on Kubernetes versus serverless platforms like AWS Lambda."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "MLOps",
+    "difficulty": "Mid",
+    "skill": "Retraining",
+    "question": "How would you design an automated model retraining pipeline that triggers based on data drift detection rather than a fixed schedule?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "MLOps",
+    "difficulty": "Senior",
+    "skill": "Platform Design",
+    "question": "Design a self-service ML platform for 200 data scientists. What components would you build and what open-source tools would you integrate?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "MLOps",
+    "difficulty": "Senior",
+    "skill": "Observability",
+    "question": "What is the difference between model monitoring and model observability? Design a comprehensive observability stack for a production ML system."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "MLOps",
+    "difficulty": "Senior",
+    "skill": "Cost Optimization",
+    "question": "Your ML inference infrastructure costs $500K per month. Walk me through a systematic approach to reduce costs by 40% without degrading user experience."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "MLOps",
+    "difficulty": "Senior",
+    "skill": "Governance",
+    "question": "How would you implement model governance including audit trails, approval workflows, and compliance reporting in a regulated financial services company?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "MLOps",
+    "difficulty": "Senior",
+    "skill": "ML System Reliability",
+    "question": "How would you design an ML system with 99.9% uptime SLA? Describe your fallback strategies when the primary model is unavailable."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "LLMs",
+    "difficulty": "Junior",
+    "skill": "Fundamentals",
+    "question": "What is a transformer architecture and what makes it different from RNNs for processing text?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "LLMs",
+    "difficulty": "Junior",
+    "skill": "Tokenization",
+    "question": "What is tokenization and why does the choice of tokenizer affect LLM performance? What is byte-pair encoding?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "LLMs",
+    "difficulty": "Junior",
+    "skill": "Prompting",
+    "question": "What is prompt engineering? Give examples of zero-shot, one-shot, and few-shot prompting."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "LLMs",
+    "difficulty": "Junior",
+    "skill": "APIs",
+    "question": "How would you call the OpenAI API to summarize a document? What parameters like temperature and max_tokens do and why do they matter?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "LLMs",
+    "difficulty": "Junior",
+    "skill": "Use Cases",
+    "question": "What is a RAG system? Explain the basic flow of how it works and what problem it solves."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "LLMs",
+    "difficulty": "Mid",
+    "skill": "Fine-tuning",
+    "question": "Compare full fine-tuning, LoRA, and QLoRA for adapting an LLM to a domain-specific task. What are the trade-offs in compute, data, and performance?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "LLMs",
+    "difficulty": "Mid",
+    "skill": "RAG",
+    "question": "Design a production RAG pipeline for a customer support bot. How would you handle chunking strategy, embedding selection, and retrieval ranking?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "LLMs",
+    "difficulty": "Mid",
+    "skill": "Evaluation",
+    "question": "How would you evaluate the quality of an LLM-based application? Describe both automated and human evaluation approaches."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "LLMs",
+    "difficulty": "Mid",
+    "skill": "Hallucination",
+    "question": "What causes LLM hallucinations and what techniques can you implement at inference time to reduce them in a production system?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "LLMs",
+    "difficulty": "Mid",
+    "skill": "Agents",
+    "question": "Explain the ReAct pattern for LLM agents. How would you implement tool use with error handling in a production agentic system?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "LLMs",
+    "difficulty": "Senior",
+    "skill": "Architecture",
+    "question": "Explain how grouped query attention and sliding window attention improve LLM inference efficiency compared to standard multi-head attention."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "LLMs",
+    "difficulty": "Senior",
+    "skill": "RLHF",
+    "question": "Explain the RLHF training pipeline including supervised fine-tuning, reward model training, and PPO optimization. What are the key failure modes?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "LLMs",
+    "difficulty": "Senior",
+    "skill": "Inference Optimization",
+    "question": "Explain KV caching, speculative decoding, and continuous batching for LLM inference. How would you select between vLLM, TensorRT-LLM, and TGI for a production deployment?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "LLMs",
+    "difficulty": "Senior",
+    "skill": "System Design",
+    "question": "Design a multi-agent LLM system for automated software engineering that can plan, code, test, and debug. How do you manage state, context limits, and reliability?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "LLMs",
+    "difficulty": "Senior",
+    "skill": "Safety",
+    "question": "How would you implement a robust guardrail system for an enterprise LLM application handling sensitive healthcare data, including input filtering, output validation, and PII detection?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Computer Vision",
+    "difficulty": "Junior",
+    "skill": "Image Basics",
+    "question": "What is the difference between RGB and grayscale images? How are images represented as tensors in a deep learning framework?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Computer Vision",
+    "difficulty": "Junior",
+    "skill": "Data Augmentation",
+    "question": "What is data augmentation and why is it important for training CV models? Give five examples of common image augmentation techniques."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Computer Vision",
+    "difficulty": "Junior",
+    "skill": "Pretrained Models",
+    "question": "What is ImageNet and why is pretraining on it useful? Name three commonly used pretrained CNN architectures."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Computer Vision",
+    "difficulty": "Junior",
+    "skill": "Object Detection",
+    "question": "What is the difference between image classification, object detection, and semantic segmentation?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Computer Vision",
+    "difficulty": "Junior",
+    "skill": "Metrics",
+    "question": "What is Intersection over Union (IoU) and how is it used to evaluate object detection models?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Computer Vision",
+    "difficulty": "Mid",
+    "skill": "Architecture",
+    "question": "Compare ResNet, EfficientNet, and Vision Transformer (ViT) architectures. When would you choose each for a production CV task?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Computer Vision",
+    "difficulty": "Mid",
+    "skill": "Object Detection",
+    "question": "Explain how YOLO works compared to a two-stage detector like Faster R-CNN. What are the trade-offs in speed and accuracy?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Computer Vision",
+    "difficulty": "Mid",
+    "skill": "Segmentation",
+    "question": "What is the difference between semantic segmentation, instance segmentation, and panoptic segmentation? Name a real-world application for each."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Computer Vision",
+    "difficulty": "Mid",
+    "skill": "Dataset Challenges",
+    "question": "You need to train a defect detection model but only have 200 labeled images. What techniques would you use to build a production-quality model?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Computer Vision",
+    "difficulty": "Mid",
+    "skill": "Video Analysis",
+    "question": "How would you approach action recognition in video data? Compare 3D CNN and two-stream network approaches."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Computer Vision",
+    "difficulty": "Senior",
+    "skill": "Foundation Models",
+    "question": "Explain how CLIP and SAM (Segment Anything Model) work. Design a zero-shot product defect detection system using foundation models."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Computer Vision",
+    "difficulty": "Senior",
+    "skill": "Deployment",
+    "question": "Design an end-to-end real-time CV system for autonomous quality control on a manufacturing line processing 60 frames per second. Cover hardware, model, and pipeline choices."
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Computer Vision",
+    "difficulty": "Senior",
+    "skill": "Self-Supervised Learning",
+    "question": "Explain how contrastive learning methods like SimCLR and MoCo work. How would you use self-supervised pretraining to improve a medical imaging model with limited labels?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Computer Vision",
+    "difficulty": "Senior",
+    "skill": "3D Vision",
+    "question": "Compare NeRF and Gaussian Splatting for 3D scene reconstruction. What are practical applications and limitations of each in an enterprise setting?"
+  },
+  {
+    "role": "AI Engineer",
+    "category": "Computer Vision",
+    "difficulty": "Senior",
+    "skill": "Multimodal",
+    "question": "Design a visual question answering system that must handle out-of-distribution queries gracefully. How do you measure and improve its reliability in production?"
+  }
+]
