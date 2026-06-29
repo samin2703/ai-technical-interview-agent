@@ -1,0 +1,1052 @@
+[
+  {
+    "role": "Frontend Engineer",
+    "category": "HTML",
+    "difficulty": "Junior",
+    "skill": "Semantic HTML",
+    "question": "You are building a blog page with a header, navigation, a list of articles, and a footer. Which HTML elements would you use and why would you avoid using div for everything?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "HTML",
+    "difficulty": "Junior",
+    "skill": "Forms",
+    "question": "You need to build a login form with email and password fields. What HTML attributes would you add to improve usability, validation, and accessibility without any JavaScript?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "HTML",
+    "difficulty": "Junior",
+    "skill": "Meta Tags",
+    "question": "A designer asks why the mobile layout looks zoomed out on an iPhone. What HTML tag is likely missing and what does it do?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "HTML",
+    "difficulty": "Junior",
+    "skill": "Images",
+    "question": "You have an image that is decorative and adds no information to the page. How should you handle the alt attribute and why?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "HTML",
+    "difficulty": "Junior",
+    "skill": "Document Structure",
+    "question": "What is the difference between head and body in an HTML document? Give three examples of what belongs in each."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "HTML",
+    "difficulty": "Mid",
+    "skill": "Custom Data Attributes",
+    "question": "You need to store configuration data on DOM elements to drive JavaScript behavior without polluting the class attribute. How would you use data attributes and what are their limitations?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "HTML",
+    "difficulty": "Mid",
+    "skill": "Performance",
+    "question": "Your page has 20 images below the fold that are slowing down initial load. What HTML-native solution would you apply and how does it work?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "HTML",
+    "difficulty": "Mid",
+    "skill": "SEO",
+    "question": "A product manager asks why the company blog posts are not ranking well in Google despite good content. What HTML structure and meta tag issues would you audit first?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "HTML",
+    "difficulty": "Mid",
+    "skill": "Tables",
+    "question": "You need to display a data table comparing pricing plans. What HTML elements would you use to make it semantically correct and screen reader friendly?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "HTML",
+    "difficulty": "Mid",
+    "skill": "Resource Hints",
+    "question": "Explain the difference between preload, prefetch, and preconnect link hints. Give a concrete example of when you would use each on a content-heavy marketing page."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "HTML",
+    "difficulty": "Senior",
+    "skill": "Web Components",
+    "question": "Your team wants to share UI components across multiple frameworks including React and Vue. How would you evaluate using native Web Components and what are the real-world trade-offs in a large enterprise?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "HTML",
+    "difficulty": "Senior",
+    "skill": "Security",
+    "question": "A security audit flags that your application allows users to input data that gets rendered as HTML. Walk me through how you would sanitize and safely render user-generated HTML content."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "HTML",
+    "difficulty": "Senior",
+    "skill": "Template Element",
+    "question": "How does the HTML template element differ from hidden divs for client-side templating? Describe a scenario in a server-rendered app where using template provides a meaningful advantage."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "HTML",
+    "difficulty": "Senior",
+    "skill": "Document Outline",
+    "question": "You are leading a frontend audit of a large legacy application. Heading levels are inconsistently used across pages. What is the impact and how would you systematically fix this at scale?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "HTML",
+    "difficulty": "Senior",
+    "skill": "Performance",
+    "question": "Describe how you would structure HTML to maximize performance for a news site that serves millions of daily users, covering critical rendering path, above-the-fold content, and resource loading order."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "CSS",
+    "difficulty": "Junior",
+    "skill": "Flexbox",
+    "question": "You need to center a card both horizontally and vertically inside a full-screen container. Write the CSS using Flexbox and explain each property you use."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "CSS",
+    "difficulty": "Junior",
+    "skill": "Box Model",
+    "question": "A junior colleague adds padding to a button and it breaks the layout because the button becomes wider than expected. What is causing this and how do you fix it?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "CSS",
+    "difficulty": "Junior",
+    "skill": "Responsive Design",
+    "question": "You need a three-column layout on desktop that collapses to a single column on mobile. How would you implement this using CSS Grid or Flexbox with media queries?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "CSS",
+    "difficulty": "Junior",
+    "skill": "Specificity",
+    "question": "You apply a class to change a button's color but the color is not changing. How would you debug this and what CSS concept is likely causing the issue?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "CSS",
+    "difficulty": "Junior",
+    "skill": "Positioning",
+    "question": "Explain the difference between relative, absolute, fixed, and sticky positioning with a practical example for each."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "CSS",
+    "difficulty": "Mid",
+    "skill": "CSS Custom Properties",
+    "question": "Your design system needs to support dark mode. How would you implement it using CSS custom properties and what advantages does this approach have over using class-based overrides?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "CSS",
+    "difficulty": "Mid",
+    "skill": "Animations",
+    "question": "A product requirement calls for a smooth loading skeleton animation. How would you implement this with CSS only and what performance considerations would you keep in mind?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "CSS",
+    "difficulty": "Mid",
+    "skill": "CSS Architecture",
+    "question": "You join a team with no CSS conventions and global style collisions are causing bugs. How would you introduce a scalable CSS architecture and what methodology or tooling would you recommend?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "CSS",
+    "difficulty": "Mid",
+    "skill": "Grid",
+    "question": "Build a magazine-style layout where some articles span two columns and others span one, with consistent row heights. How would you approach this with CSS Grid?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "CSS",
+    "difficulty": "Mid",
+    "skill": "Performance",
+    "question": "A frontend performance audit shows layout thrashing caused by CSS animations. How do you identify which CSS properties trigger layout, paint, or composite and how do you fix them?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "CSS",
+    "difficulty": "Senior",
+    "skill": "Design Systems",
+    "question": "You are building a token-based design system used across web and mobile. How would you structure CSS custom properties to handle themes, breakpoints, and component-level overrides at scale?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "CSS",
+    "difficulty": "Senior",
+    "skill": "CSS-in-JS",
+    "question": "Your team is debating between Tailwind CSS, CSS Modules, and styled-components for a large React application. Walk through your decision framework including performance, DX, and maintainability."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "CSS",
+    "difficulty": "Senior",
+    "skill": "Critical CSS",
+    "question": "Explain what critical CSS is, how you would extract and inline it in a Next.js application, and what the measurable impact on Core Web Vitals would be."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "CSS",
+    "difficulty": "Senior",
+    "skill": "Container Queries",
+    "question": "You have a card component that is used in both a narrow sidebar and a wide main area. How would CSS container queries solve what media queries cannot and what is the current browser support consideration?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "CSS",
+    "difficulty": "Senior",
+    "skill": "Cascade Layers",
+    "question": "A large application has style conflicts between third-party libraries, utility classes, and component styles. How would CSS cascade layers help and how would you structure them?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "JavaScript",
+    "difficulty": "Junior",
+    "skill": "DOM Manipulation",
+    "question": "You need to add a click event to a button that appends a new list item to an unordered list. Write the JavaScript to do this and explain how you would prevent duplicate event listeners."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "JavaScript",
+    "difficulty": "Junior",
+    "skill": "Async Basics",
+    "question": "You need to fetch user data from an API and display it on the page. Write an example using fetch with async/await and handle both success and error cases."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "JavaScript",
+    "difficulty": "Junior",
+    "skill": "ES6+",
+    "question": "Refactor this code to use modern ES6+ features: var users = []; for(var i = 0; i < data.length; i++) { if(data[i].active) { users.push(data[i].name); } }"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "JavaScript",
+    "difficulty": "Junior",
+    "skill": "Event Handling",
+    "question": "What is event delegation and why is it more efficient than attaching individual event listeners to each item in a list of 1000 elements?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "JavaScript",
+    "difficulty": "Junior",
+    "skill": "Scope & Closures",
+    "question": "A colleague has a bug where a loop counter always logs the same final value in a setTimeout callback. Explain why this happens and show two ways to fix it."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "JavaScript",
+    "difficulty": "Mid",
+    "skill": "Promises",
+    "question": "You need to call three independent APIs in parallel and render the results only when all three succeed, but show a partial UI if one fails. How would you handle this with Promise.allSettled?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "JavaScript",
+    "difficulty": "Mid",
+    "skill": "Prototypal Inheritance",
+    "question": "A senior dev asks you to explain how class syntax in JavaScript differs from traditional prototypal inheritance. Give a concrete example and explain what class is under the hood."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "JavaScript",
+    "difficulty": "Mid",
+    "skill": "Debounce & Throttle",
+    "question": "Your search input fires an API request on every keystroke causing performance issues. Implement a debounce function from scratch and explain when you would use throttle instead."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "JavaScript",
+    "difficulty": "Mid",
+    "skill": "Memory Management",
+    "question": "You notice a single-page application's memory usage grows continuously as users navigate between pages. What JavaScript patterns typically cause memory leaks and how would you find and fix them?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "JavaScript",
+    "difficulty": "Mid",
+    "skill": "Modules",
+    "question": "Explain the difference between CommonJS and ES Modules. Why does mixing them in a project cause issues and how would you resolve them in a build tool like Vite or Webpack?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "JavaScript",
+    "difficulty": "Senior",
+    "skill": "Event Loop",
+    "question": "Explain the JavaScript event loop, call stack, microtask queue, and macrotask queue. Predict the output order of a code snippet mixing setTimeout, Promise.resolve, and synchronous code."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "JavaScript",
+    "difficulty": "Senior",
+    "skill": "Security",
+    "question": "Describe how an XSS attack can be executed through JavaScript and walk through five concrete defenses you would implement in a production application."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "JavaScript",
+    "difficulty": "Senior",
+    "skill": "Observables",
+    "question": "Compare Promises and Observables for handling a real-time data stream from a WebSocket. When would you introduce RxJS into a frontend codebase and what are the costs?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "JavaScript",
+    "difficulty": "Senior",
+    "skill": "Runtime Performance",
+    "question": "A complex JavaScript operation is causing frame drops and janky UI. How would you use the Chrome Performance panel to profile it and what strategies like web workers or chunking would you apply?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "JavaScript",
+    "difficulty": "Senior",
+    "skill": "Engine Optimization",
+    "question": "What are hidden classes in V8 and how can writing JavaScript in certain patterns deoptimize your code? Give practical examples relevant to a high-performance data grid component."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "TypeScript",
+    "difficulty": "Junior",
+    "skill": "Basic Types",
+    "question": "You have a function that accepts a user object with name and age fields. How would you type the parameter using a TypeScript interface and what happens if you pass an object with extra fields?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "TypeScript",
+    "difficulty": "Junior",
+    "skill": "Union Types",
+    "question": "You have a status field that can only be 'loading', 'success', or 'error'. How would you type this in TypeScript and what is the advantage over using a plain string type?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "TypeScript",
+    "difficulty": "Junior",
+    "skill": "Type Inference",
+    "question": "When should you explicitly annotate types in TypeScript versus letting the compiler infer them? Give examples of when inference falls short."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "TypeScript",
+    "difficulty": "Junior",
+    "skill": "Enums vs Literals",
+    "question": "A colleague used a TypeScript enum for direction values. Another suggests using string literal unions instead. What are the trade-offs and which would you recommend?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "TypeScript",
+    "difficulty": "Junior",
+    "skill": "Optional & Nullable",
+    "question": "What is the difference between optional properties and properties explicitly typed as undefined or null in TypeScript? Show an example where this distinction matters."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "TypeScript",
+    "difficulty": "Mid",
+    "skill": "Generics",
+    "question": "You are building a reusable API hook that can return different data shapes depending on the endpoint. How would you use TypeScript generics to type this hook correctly?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "TypeScript",
+    "difficulty": "Mid",
+    "skill": "Type Guards",
+    "question": "You receive data from an API that could be a User or an AdminUser type. How would you write a type guard to narrow the type and use it safely in a component?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "TypeScript",
+    "difficulty": "Mid",
+    "skill": "Utility Types",
+    "question": "Give practical use cases for Partial, Pick, Omit, and Readonly utility types in the context of building React form components and API response types."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "TypeScript",
+    "difficulty": "Mid",
+    "skill": "React with TypeScript",
+    "question": "How would you type a React component that accepts children, an optional onClick handler, and a polymorphic as prop that determines the rendered HTML element?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "TypeScript",
+    "difficulty": "Mid",
+    "skill": "Strict Mode",
+    "question": "You enable strict mode on a large existing JavaScript codebase being migrated to TypeScript and hundreds of errors appear. How would you manage this migration incrementally without blocking the team?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "TypeScript",
+    "difficulty": "Senior",
+    "skill": "Conditional Types",
+    "question": "Explain conditional types and mapped types in TypeScript. Build a type utility that makes all nested properties of an object optional without using Partial directly."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "TypeScript",
+    "difficulty": "Senior",
+    "skill": "Template Literal Types",
+    "question": "You are building a strongly typed event bus system where event names follow the pattern entity:action. How would you use template literal types to enforce this at compile time?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "TypeScript",
+    "difficulty": "Senior",
+    "skill": "Declaration Files",
+    "question": "You use a third-party JavaScript library with no type definitions. Walk me through writing a custom declaration file for it and publishing it or sharing it within your team."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "TypeScript",
+    "difficulty": "Senior",
+    "skill": "Type System Design",
+    "question": "How would you design a type-safe API client in TypeScript that infers response types from an API schema, ensuring changes to the backend schema surface as compile-time errors in the frontend?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "TypeScript",
+    "difficulty": "Senior",
+    "skill": "Compiler Configuration",
+    "question": "Walk me through the most important tsconfig options for a large production React application including paths, module resolution, strict flags, and how you would configure it differently for a library versus an application."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "React",
+    "difficulty": "Junior",
+    "skill": "Components",
+    "question": "You need to build a reusable Button component that accepts a label, an onClick handler, and a disabled state. Write the component and explain your prop choices."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "React",
+    "difficulty": "Junior",
+    "skill": "State",
+    "question": "Build a counter component with increment and decrement buttons that does not let the count go below zero. How would you manage this with useState?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "React",
+    "difficulty": "Junior",
+    "skill": "Lists & Keys",
+    "question": "You render a list of products using Array.map and get a React warning about keys. Why does React need keys and what is wrong with using the array index as a key?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "React",
+    "difficulty": "Junior",
+    "skill": "Conditional Rendering",
+    "question": "Show three different ways to conditionally render a loading spinner versus content in a React component and describe when you would use each approach."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "React",
+    "difficulty": "Junior",
+    "skill": "Forms",
+    "question": "What is the difference between controlled and uncontrolled form inputs in React? Build a simple controlled text input with validation that shows an error message."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "React",
+    "difficulty": "Mid",
+    "skill": "useEffect",
+    "question": "You fetch data in a useEffect but users are seeing stale data or duplicate requests. Walk me through the common mistakes with useEffect dependencies and how you would fix them."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "React",
+    "difficulty": "Mid",
+    "skill": "Custom Hooks",
+    "question": "Multiple components need to fetch paginated data with loading and error states. How would you extract this into a reusable custom hook and what would its API look like?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "React",
+    "difficulty": "Mid",
+    "skill": "Performance",
+    "question": "A list component re-renders every time the parent updates even though its props have not changed. How do you diagnose this using React DevTools and fix it using memoization?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "React",
+    "difficulty": "Mid",
+    "skill": "Error Boundaries",
+    "question": "A third-party component occasionally throws runtime errors and crashes the entire page. How would you implement an error boundary and what are its limitations with async errors?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "React",
+    "difficulty": "Mid",
+    "skill": "Code Splitting",
+    "question": "Your React app bundle is 3MB and initial load is slow. How would you use React.lazy and Suspense to split the bundle and what routing strategy pairs well with this?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "React",
+    "difficulty": "Senior",
+    "skill": "Rendering Patterns",
+    "question": "Compare React Server Components with client components. In a Next.js App Router application, how do you decide which parts of your component tree should be server vs client rendered?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "React",
+    "difficulty": "Senior",
+    "skill": "Concurrent Features",
+    "question": "Explain React's concurrent rendering model. How do useTransition and useDeferredValue improve user experience and when would you apply them in a complex data dashboard?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "React",
+    "difficulty": "Senior",
+    "skill": "Component Architecture",
+    "question": "You are building a design system of 50+ components used by 10 teams. How would you design component APIs for flexibility and composability while preventing misuse and API churn?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "React",
+    "difficulty": "Senior",
+    "skill": "Performance Profiling",
+    "question": "Walk me through profiling a slow React application using React DevTools Profiler and Chrome Performance tools. What metrics would you look for and what are the most common root causes?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "React",
+    "difficulty": "Senior",
+    "skill": "Patterns",
+    "question": "Compare the render props pattern, higher-order components, and custom hooks for sharing stateful logic. Why have hooks largely replaced the others and when might you still reach for HOCs?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "State Management",
+    "difficulty": "Junior",
+    "skill": "useState",
+    "question": "You have two sibling components that need to share the same piece of state. How would you solve this in React without any state management library?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "State Management",
+    "difficulty": "Junior",
+    "skill": "Props Drilling",
+    "question": "A colleague passes a user object through five nested components to reach a deeply nested component that needs it. What is this problem called and what is a simple way to solve it?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "State Management",
+    "difficulty": "Junior",
+    "skill": "Context API",
+    "question": "How would you use React Context to provide a theme value to all components in an app without passing it as a prop everywhere?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "State Management",
+    "difficulty": "Junior",
+    "skill": "useReducer",
+    "question": "When would you choose useReducer over useState? Rewrite a multi-field form state that uses several useState calls using a single useReducer."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "State Management",
+    "difficulty": "Junior",
+    "skill": "Local vs Global State",
+    "question": "Describe the difference between local component state and global application state. Give examples of data that belongs in each category."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "State Management",
+    "difficulty": "Mid",
+    "skill": "Redux Toolkit",
+    "question": "Compare writing Redux with vanilla Redux versus Redux Toolkit. How does createSlice reduce boilerplate and what problems does it solve with immutability?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "State Management",
+    "difficulty": "Mid",
+    "skill": "Server State",
+    "question": "Your team is using Redux to store API response data and managing loading states manually. How would migrating to React Query or SWR simplify this and what trade-offs exist?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "State Management",
+    "difficulty": "Mid",
+    "skill": "Zustand",
+    "question": "Implement a shopping cart store using Zustand with add, remove, and clear actions. How does Zustand's approach differ from Redux in terms of boilerplate and re-render optimization?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "State Management",
+    "difficulty": "Mid",
+    "skill": "Context Performance",
+    "question": "Your app uses a single large Context and components are re-rendering unnecessarily when unrelated state changes. How would you diagnose and fix this without switching to an external library?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "State Management",
+    "difficulty": "Mid",
+    "skill": "Optimistic Updates",
+    "question": "A user clicks Like on a post and waits 500ms for the server response before the UI updates. How would you implement optimistic updates with React Query and handle rollback on failure?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "State Management",
+    "difficulty": "Senior",
+    "skill": "Architecture",
+    "question": "Design the state management architecture for a large-scale SaaS dashboard with real-time data, offline support, and multiple user roles. Justify your tool choices."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "State Management",
+    "difficulty": "Senior",
+    "skill": "Micro-frontend State",
+    "question": "You have a micro-frontend architecture where independently deployed apps need to share authentication state and user preferences. How would you design cross-app state sharing?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "State Management",
+    "difficulty": "Senior",
+    "skill": "Derived State",
+    "question": "Explain the dangers of storing derived state in Redux or Zustand. How would you use Reselect or Zustand selectors to compute derived values efficiently?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "State Management",
+    "difficulty": "Senior",
+    "skill": "Persistence",
+    "question": "You need to persist parts of your application state across browser sessions while keeping sensitive data out of localStorage. Design a selective state persistence strategy."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "State Management",
+    "difficulty": "Senior",
+    "skill": "Real-time Sync",
+    "question": "Your collaborative document editor needs to sync state between multiple users in real time via WebSockets. How would you integrate WebSocket state updates with your existing client state management?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Frontend Performance",
+    "difficulty": "Junior",
+    "skill": "Network",
+    "question": "What is the difference between minification and compression? How do they reduce the size of JavaScript files sent to the browser?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Frontend Performance",
+    "difficulty": "Junior",
+    "skill": "Images",
+    "question": "What image formats would you use for photographs, icons, and illustrations on a modern web application and why?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Frontend Performance",
+    "difficulty": "Junior",
+    "skill": "Caching",
+    "question": "What is browser caching and how does the Cache-Control header work? How would you configure it for a static JavaScript bundle?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Frontend Performance",
+    "difficulty": "Junior",
+    "skill": "Rendering",
+    "question": "What does render-blocking mean and how do you prevent JavaScript and CSS from blocking the initial render of a page?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Frontend Performance",
+    "difficulty": "Junior",
+    "skill": "Network Requests",
+    "question": "Your page makes 30 small API requests on load. What strategies could you use to reduce the number of network round trips?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Frontend Performance",
+    "difficulty": "Mid",
+    "skill": "Core Web Vitals",
+    "question": "Explain LCP, FID/INP, and CLS. Your LCP is 4.5 seconds on mobile. Walk through the steps you would take to diagnose and improve it."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Frontend Performance",
+    "difficulty": "Mid",
+    "skill": "Bundle Analysis",
+    "question": "After running a bundle analysis, you find a 200KB moment.js import that is only used for date formatting. How would you fix this and what tools help identify similar issues?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Frontend Performance",
+    "difficulty": "Mid",
+    "skill": "Fonts",
+    "question": "Custom web fonts are causing a Flash of Invisible Text on your site. What loading strategies and CSS properties would you use to eliminate this while keeping the custom font?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Frontend Performance",
+    "difficulty": "Mid",
+    "skill": "Virtualization",
+    "question": "You need to render a list of 50,000 rows in a table without pagination. What is list virtualization, how does it work, and which library would you use?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Frontend Performance",
+    "difficulty": "Mid",
+    "skill": "CDN",
+    "question": "Explain how a CDN improves frontend performance. How would you configure cache invalidation when you deploy a new version of your application?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Frontend Performance",
+    "difficulty": "Senior",
+    "skill": "Performance Budget",
+    "question": "How would you establish and enforce a performance budget for a large frontend team? What tooling would you integrate into CI/CD to prevent regressions?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Frontend Performance",
+    "difficulty": "Senior",
+    "skill": "Rendering Pipeline",
+    "question": "Explain the browser rendering pipeline from HTML parsing to pixels on screen. How does understanding this help you optimize animations and avoid layout thrashing?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Frontend Performance",
+    "difficulty": "Senior",
+    "skill": "Service Workers",
+    "question": "Design a service worker caching strategy for a progressive web app that works offline, handles cache invalidation on deploy, and falls back gracefully for dynamic API data."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Frontend Performance",
+    "difficulty": "Senior",
+    "skill": "INP Optimization",
+    "question": "Your application has a poor Interaction to Next Paint score. Walk through a systematic approach to identify long tasks, yield to the main thread, and improve responsiveness."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Frontend Performance",
+    "difficulty": "Senior",
+    "skill": "Observability",
+    "question": "How would you implement real user monitoring for Core Web Vitals in production? Describe the data collection approach, segmentation strategy, and alerting thresholds."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Web APIs",
+    "difficulty": "Junior",
+    "skill": "Fetch API",
+    "question": "Write a fetch call that sends a POST request with a JSON body and handles HTTP error status codes like 404 and 500 explicitly."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Web APIs",
+    "difficulty": "Junior",
+    "skill": "localStorage",
+    "question": "What is the difference between localStorage, sessionStorage, and cookies? When would you use each for storing a user's authentication token?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Web APIs",
+    "difficulty": "Junior",
+    "skill": "DOM APIs",
+    "question": "What is the difference between getElementById, querySelector, and querySelectorAll? When would you use each?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Web APIs",
+    "difficulty": "Junior",
+    "skill": "History API",
+    "question": "What is the History API and how does it enable client-side routing in single-page applications without full page reloads?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Web APIs",
+    "difficulty": "Junior",
+    "skill": "Geolocation",
+    "question": "How would you use the Geolocation API to get a user's current location and what must you consider about user permissions and error handling?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Web APIs",
+    "difficulty": "Mid",
+    "skill": "WebSockets",
+    "question": "Implement a WebSocket connection in a React component that reconnects automatically on disconnect and cleans up properly when the component unmounts."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Web APIs",
+    "difficulty": "Mid",
+    "skill": "Intersection Observer",
+    "question": "You need to implement infinite scroll that loads more content when the user nears the bottom of the page. How would you use the Intersection Observer API instead of scroll event listeners?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Web APIs",
+    "difficulty": "Mid",
+    "skill": "Web Workers",
+    "question": "A JSON parsing operation on large datasets is blocking the main thread and making the UI unresponsive. How would you offload this to a Web Worker and communicate the result back?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Web APIs",
+    "difficulty": "Mid",
+    "skill": "Clipboard API",
+    "question": "Implement a Copy to Clipboard button that uses the modern Clipboard API, falls back gracefully for unsupported browsers, and gives visual feedback to the user."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Web APIs",
+    "difficulty": "Mid",
+    "skill": "File API",
+    "question": "Build a drag-and-drop file upload area that validates file type and size before uploading, shows upload progress, and handles multiple files concurrently."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Web APIs",
+    "difficulty": "Senior",
+    "skill": "Performance APIs",
+    "question": "How would you use the Performance Observer API and Navigation Timing API to measure and report real user performance metrics from production traffic?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Web APIs",
+    "difficulty": "Senior",
+    "skill": "IndexedDB",
+    "question": "Design an offline-first data sync strategy using IndexedDB. How would you handle conflict resolution when local changes and server changes occur simultaneously?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Web APIs",
+    "difficulty": "Senior",
+    "skill": "Streams API",
+    "question": "Explain the Streams API and describe a real-world scenario in a frontend application where using ReadableStream provides a meaningful performance improvement over buffered responses."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Web APIs",
+    "difficulty": "Senior",
+    "skill": "WebRTC",
+    "question": "Describe the high-level architecture of establishing a peer-to-peer video call using WebRTC. What role does a signaling server play and what are the main browser APIs involved?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Web APIs",
+    "difficulty": "Senior",
+    "skill": "Security",
+    "question": "Explain how Content Security Policy works. Write a realistic CSP header for a React SPA that uses inline styles, a CDN for fonts, and a third-party analytics script."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Testing",
+    "difficulty": "Junior",
+    "skill": "Unit Testing",
+    "question": "Write a Jest test for a utility function that formats a price in dollars. Cover normal input, zero, negative numbers, and non-numeric input."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Testing",
+    "difficulty": "Junior",
+    "skill": "React Testing Library",
+    "question": "How would you test a Button component to verify it calls an onClick handler when clicked and is disabled when the disabled prop is passed?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Testing",
+    "difficulty": "Junior",
+    "skill": "Queries",
+    "question": "What is the difference between getBy, queryBy, and findBy queries in React Testing Library? When would you use each?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Testing",
+    "difficulty": "Junior",
+    "skill": "Mocking",
+    "question": "How would you mock a module import in Jest so that tests for a component do not make real API calls?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Testing",
+    "difficulty": "Junior",
+    "skill": "Test Structure",
+    "question": "What is the Arrange-Act-Assert pattern? Rewrite a poorly structured test that mixes setup and assertions throughout into a clean AAA structure."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Testing",
+    "difficulty": "Mid",
+    "skill": "Async Testing",
+    "question": "Write a test for a component that fetches user data on mount and displays it. How do you wait for async state updates and avoid act warnings?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Testing",
+    "difficulty": "Mid",
+    "skill": "Integration Testing",
+    "question": "What is the difference between unit testing individual components and integration testing a feature flow? Describe how you would test a multi-step checkout form end to end with React Testing Library."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Testing",
+    "difficulty": "Mid",
+    "skill": "MSW",
+    "question": "How does Mock Service Worker differ from mocking fetch directly in tests? Set up an MSW handler for a GET /users endpoint and explain its advantages for both testing and development."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Testing",
+    "difficulty": "Mid",
+    "skill": "Coverage",
+    "question": "Your team has 90% test coverage but still ships bugs. What does coverage not tell you and how would you improve test quality beyond raw coverage metrics?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Testing",
+    "difficulty": "Mid",
+    "skill": "Snapshot Testing",
+    "question": "What are the benefits and drawbacks of snapshot testing React components? Describe a scenario where snapshots help and one where they create false confidence."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Testing",
+    "difficulty": "Senior",
+    "skill": "E2E Testing",
+    "question": "Design an E2E testing strategy using Playwright for a large React application. How do you decide what to test at unit, integration, and E2E levels and how do you prevent flaky tests?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Testing",
+    "difficulty": "Senior",
+    "skill": "Testing Architecture",
+    "question": "You join a team with no frontend tests and a tight delivery schedule. How would you introduce a sustainable testing culture and prioritize what gets tested first?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Testing",
+    "difficulty": "Senior",
+    "skill": "Visual Regression",
+    "question": "How would you implement visual regression testing in a CI pipeline for a component library? What tools would you use and how do you handle legitimate visual changes?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Testing",
+    "difficulty": "Senior",
+    "skill": "Performance Testing",
+    "question": "How would you write automated performance tests that fail CI if a component causes Core Web Vital regressions? What tools and thresholds would you set?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Testing",
+    "difficulty": "Senior",
+    "skill": "Test Driven Development",
+    "question": "Describe your experience with TDD in a frontend context. What types of frontend code benefit most from a test-first approach and where does TDD become counterproductive?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Accessibility (a11y)",
+    "difficulty": "Junior",
+    "skill": "ARIA",
+    "question": "What is the purpose of ARIA attributes? Give an example of when you would add aria-label to an element and when it would be unnecessary."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Accessibility (a11y)",
+    "difficulty": "Junior",
+    "skill": "Keyboard Navigation",
+    "question": "How would you ensure a custom dropdown menu component is navigable by keyboard only, without using the mouse?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Accessibility (a11y)",
+    "difficulty": "Junior",
+    "skill": "Color Contrast",
+    "question": "A designer gives you a button with light gray text on a white background. How do you check if this meets WCAG contrast requirements and what would you tell the designer if it fails?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Accessibility (a11y)",
+    "difficulty": "Junior",
+    "skill": "Focus Management",
+    "question": "What is focus and why is it important for accessibility? How would you style a visible focus indicator without removing the default outline entirely?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Accessibility (a11y)",
+    "difficulty": "Junior",
+    "skill": "Alt Text",
+    "question": "You have an image of a chart showing quarterly sales growth. How would you write meaningful alt text for this and when would you use a longer description approach?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Accessibility (a11y)",
+    "difficulty": "Mid",
+    "skill": "Modal Dialogs",
+    "question": "Build an accessible modal dialog in React. What focus management, keyboard trapping, ARIA roles, and screen reader announcements must you handle?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Accessibility (a11y)",
+    "difficulty": "Mid",
+    "skill": "Live Regions",
+    "question": "Your app shows toast notifications for async actions. How would you use ARIA live regions to ensure screen reader users are informed of these notifications?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Accessibility (a11y)",
+    "difficulty": "Mid",
+    "skill": "Forms",
+    "question": "Design an accessible form with inline validation. How do you associate error messages with inputs and announce validation errors to screen reader users?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Accessibility (a11y)",
+    "difficulty": "Mid",
+    "skill": "Testing",
+    "question": "What tools would you use to test accessibility in a React application? Describe a workflow combining automated tools like axe-core with manual screen reader testing."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Accessibility (a11y)",
+    "difficulty": "Mid",
+    "skill": "Routing",
+    "question": "In a single-page application, when the user navigates to a new page the screen reader does not announce it. How would you implement accessible routing with focus management and page title updates?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Accessibility (a11y)",
+    "difficulty": "Senior",
+    "skill": "Design System Accessibility",
+    "question": "You are building a component library used by 20 product teams. How do you ensure and enforce accessibility standards across all components, including documentation and CI checks?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Accessibility (a11y)",
+    "difficulty": "Senior",
+    "skill": "Complex Widgets",
+    "question": "Implement an accessible data grid with sortable columns, row selection, and inline editing. Reference the ARIA grid pattern and explain each interaction requirement."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Accessibility (a11y)",
+    "difficulty": "Senior",
+    "skill": "Legal Compliance",
+    "question": "Your company receives a WCAG 2.1 AA compliance audit failure. How would you lead a cross-team remediation effort, prioritize issues, and prevent regressions going forward?"
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Accessibility (a11y)",
+    "difficulty": "Senior",
+    "skill": "Motion & Animation",
+    "question": "How do you handle users who have enabled prefers-reduced-motion? Describe a strategy for building animation-heavy UIs that degrade gracefully for motion-sensitive users."
+  },
+  {
+    "role": "Frontend Engineer",
+    "category": "Accessibility (a11y)",
+    "difficulty": "Senior",
+    "skill": "Cognitive Accessibility",
+    "question": "Beyond screen readers and keyboard navigation, what cognitive accessibility considerations would you apply to a complex multi-step financial application used by a diverse user base?"
+  }
+]

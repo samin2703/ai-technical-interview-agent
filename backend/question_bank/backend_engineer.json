@@ -1,0 +1,1052 @@
+[
+  {
+    "role": "Backend Engineer",
+    "category": "Programming",
+    "difficulty": "Junior",
+    "skill": "Data Structures",
+    "question": "You need to find duplicate entries in a list of one million user IDs as fast as possible. Which data structure would you use and why?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Programming",
+    "difficulty": "Junior",
+    "skill": "Error Handling",
+    "question": "You are writing a function that reads a config file and parses JSON from it. What can go wrong and how would you handle each failure case gracefully?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Programming",
+    "difficulty": "Junior",
+    "skill": "Logging",
+    "question": "Why should you avoid using print statements for logging in production? What would you use instead and what information should every log entry contain?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Programming",
+    "difficulty": "Junior",
+    "skill": "Environment Variables",
+    "question": "A colleague hardcoded a database password in the source code and pushed it to GitHub. How would you fix this immediately and prevent it from happening again?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Programming",
+    "difficulty": "Junior",
+    "skill": "Algorithms",
+    "question": "You have an unsorted list of orders and need to frequently search for orders by ID. What data structure would make lookups O(1) and how would you implement it?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Programming",
+    "difficulty": "Mid",
+    "skill": "Concurrency",
+    "question": "Your backend service processes payments and two requests for the same user arrive simultaneously, both reading a balance of $100 and each trying to deduct $80. How do you prevent this race condition?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Programming",
+    "difficulty": "Mid",
+    "skill": "Background Jobs",
+    "question": "A user triggers an action that requires sending 10,000 emails. Doing this synchronously in the request handler times out. How would you redesign this using background job processing?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Programming",
+    "difficulty": "Mid",
+    "skill": "Memory Management",
+    "question": "Your Node.js service gradually increases memory usage over days until it crashes. Walk me through how you would diagnose and identify the memory leak."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Programming",
+    "difficulty": "Mid",
+    "skill": "Dependency Management",
+    "question": "After deploying a new version, a service breaks because a transitive dependency changed its behavior. How would you prevent and recover from this situation?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Programming",
+    "difficulty": "Mid",
+    "skill": "Code Quality",
+    "question": "You inherit a 5,000-line service file with no tests and multiple responsibilities. How would you approach refactoring it safely without breaking production?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Programming",
+    "difficulty": "Senior",
+    "skill": "Distributed Concurrency",
+    "question": "You have a distributed inventory system across 10 servers. A flash sale causes thousands of concurrent requests to decrement stock. How do you prevent overselling without creating a bottleneck?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Programming",
+    "difficulty": "Senior",
+    "skill": "Language Runtime",
+    "question": "Explain how the Python GIL or JVM garbage collector affects the design of a high-throughput backend service. What architectural decisions does it force you to make?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Programming",
+    "difficulty": "Senior",
+    "skill": "Idempotency",
+    "question": "Design an idempotent payment processing API endpoint. How do you handle cases where the client retries a request due to a network timeout but the first request already succeeded?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Programming",
+    "difficulty": "Senior",
+    "skill": "Technical Debt",
+    "question": "You are leading a team that needs to migrate a monolithic Python application to an event-driven architecture while continuing to ship features. How do you manage this without stopping feature delivery?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Programming",
+    "difficulty": "Senior",
+    "skill": "Resilience Patterns",
+    "question": "Implement the circuit breaker pattern for calls to an external payment gateway. What states does it have, how does it transition between them, and how does it protect your system?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Object-Oriented Programming",
+    "difficulty": "Junior",
+    "skill": "SOLID Principles",
+    "question": "You have a User class that handles authentication, sends emails, and generates PDF reports. Which SOLID principle does this violate and how would you refactor it?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Object-Oriented Programming",
+    "difficulty": "Junior",
+    "skill": "Inheritance",
+    "question": "You are building a payment system with CreditCardPayment and BankTransferPayment classes that share common behavior. How would you use inheritance versus composition to model this?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Object-Oriented Programming",
+    "difficulty": "Junior",
+    "skill": "Encapsulation",
+    "question": "A teammate makes all class fields public for convenience. What problems can this cause in a large codebase and how would you explain the value of encapsulation to them?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Object-Oriented Programming",
+    "difficulty": "Junior",
+    "skill": "Polymorphism",
+    "question": "You need to add a new payment method to an existing system. How does polymorphism allow you to add it without modifying existing code?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Object-Oriented Programming",
+    "difficulty": "Junior",
+    "skill": "Abstraction",
+    "question": "What is the difference between an abstract class and an interface? Give a backend example where you would choose one over the other."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Object-Oriented Programming",
+    "difficulty": "Mid",
+    "skill": "Design Patterns",
+    "question": "You need to connect to different databases depending on the environment: PostgreSQL in production and SQLite in testing. Which design pattern would you use and how would you implement it?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Object-Oriented Programming",
+    "difficulty": "Mid",
+    "skill": "Dependency Injection",
+    "question": "How does dependency injection improve testability in a backend service? Show how you would refactor a service that directly instantiates its database connection into one that uses DI."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Object-Oriented Programming",
+    "difficulty": "Mid",
+    "skill": "Repository Pattern",
+    "question": "What is the Repository pattern and how does it decouple your business logic from database access? Show how you would unit test a service that uses a repository."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Object-Oriented Programming",
+    "difficulty": "Mid",
+    "skill": "Design Patterns",
+    "question": "You need to build a notification system that can send alerts via email, SMS, and push notifications, and the channels may change at runtime. Which pattern would you use?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Object-Oriented Programming",
+    "difficulty": "Mid",
+    "skill": "Liskov Substitution",
+    "question": "Give a real backend example where a subclass violates the Liskov Substitution Principle and explain what bugs this can introduce in production."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Object-Oriented Programming",
+    "difficulty": "Senior",
+    "skill": "Domain-Driven Design",
+    "question": "Explain Aggregates, Entities, and Value Objects in Domain-Driven Design. How would you model an Order with line items and shipping address using these concepts?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Object-Oriented Programming",
+    "difficulty": "Senior",
+    "skill": "Architecture Patterns",
+    "question": "Compare the Anemic Domain Model with a Rich Domain Model. In a complex billing system, which would you advocate for and what are the long-term trade-offs?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Object-Oriented Programming",
+    "difficulty": "Senior",
+    "skill": "CQRS",
+    "question": "Explain the CQRS pattern and when you would introduce it into a backend system. What operational complexity does it add and is it worth it for a mid-sized e-commerce platform?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Object-Oriented Programming",
+    "difficulty": "Senior",
+    "skill": "Design Patterns at Scale",
+    "question": "You are designing a rules engine for a fraud detection system where new rules are added frequently. Which patterns would you combine to make the system extensible without modification?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Object-Oriented Programming",
+    "difficulty": "Senior",
+    "skill": "Event Sourcing",
+    "question": "What is Event Sourcing and how does it differ from traditional state-based persistence? Design an account balance system using event sourcing and describe how you would handle snapshots."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Databases",
+    "difficulty": "Junior",
+    "skill": "SQL Basics",
+    "question": "Write a SQL query to find all customers who placed more than 3 orders in the last 30 days, along with their total order value, ordered by total value descending."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Databases",
+    "difficulty": "Junior",
+    "skill": "Joins",
+    "question": "Explain the difference between INNER JOIN, LEFT JOIN, and FULL OUTER JOIN. Give a scenario for each using a users and orders table."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Databases",
+    "difficulty": "Junior",
+    "skill": "NoSQL",
+    "question": "When would you choose MongoDB over PostgreSQL for a backend service? What are the trade-offs you must accept when choosing a document database?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Databases",
+    "difficulty": "Junior",
+    "skill": "CRUD",
+    "question": "You run a DELETE query without a WHERE clause in production and wipe an entire table. How would you recover and what processes would you put in place to prevent this?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Databases",
+    "difficulty": "Junior",
+    "skill": "Normalization",
+    "question": "What is database normalization and why does it matter? Give an example of a denormalized table and show how you would normalize it to third normal form."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Databases",
+    "difficulty": "Mid",
+    "skill": "Indexing",
+    "question": "A query on a 50-million-row orders table is taking 8 seconds. EXPLAIN shows a full table scan. Walk me through how you would identify what index to add and verify it helped."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Databases",
+    "difficulty": "Mid",
+    "skill": "Transactions",
+    "question": "Explain ACID properties. You are transferring money between two bank accounts. Write the transaction logic and explain what happens if the server crashes between the debit and credit operations."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Databases",
+    "difficulty": "Mid",
+    "skill": "Isolation Levels",
+    "question": "What is a phantom read and at which transaction isolation level does it occur? When would you use SERIALIZABLE isolation and what is the performance cost?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Databases",
+    "difficulty": "Mid",
+    "skill": "ORM Optimization",
+    "question": "Your API endpoint using an ORM makes 101 database queries to load a list of 100 posts with their authors. What is this problem called and how do you fix it?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Databases",
+    "difficulty": "Mid",
+    "skill": "Migrations",
+    "question": "You need to add a NOT NULL column to a table with 50 million rows in production. How do you do this without locking the table and causing downtime?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Databases",
+    "difficulty": "Senior",
+    "skill": "Sharding",
+    "question": "Your PostgreSQL database is hitting write limits at 500k writes per second. Design a horizontal sharding strategy. How do you choose a shard key and handle cross-shard queries?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Databases",
+    "difficulty": "Senior",
+    "skill": "Replication",
+    "question": "Explain the difference between synchronous and asynchronous replication. In a multi-region deployment, how do you handle replication lag and what consistency guarantees can you offer users?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Databases",
+    "difficulty": "Senior",
+    "skill": "Database Selection",
+    "question": "Design the data storage layer for a real-time analytics platform that ingests 1 million events per minute and serves dashboards with sub-second query response times. Which databases would you use and why?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Databases",
+    "difficulty": "Senior",
+    "skill": "Distributed Transactions",
+    "question": "You need to update records across two separate microservice databases atomically. Explain the Saga pattern and compare choreography-based versus orchestration-based sagas."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Databases",
+    "difficulty": "Senior",
+    "skill": "Performance Tuning",
+    "question": "Walk me through a complete database performance investigation for a production PostgreSQL database showing high CPU and slow queries. What tools, metrics, and steps would you use?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "API Development",
+    "difficulty": "Junior",
+    "skill": "REST Basics",
+    "question": "Design the REST API endpoints for a blog platform with posts, comments, and users. What HTTP methods and URL structures would you use for CRUD operations?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "API Development",
+    "difficulty": "Junior",
+    "skill": "HTTP Status Codes",
+    "question": "A client sends an API request to create a user but the email already exists. What HTTP status code would you return and what should the response body contain?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "API Development",
+    "difficulty": "Junior",
+    "skill": "Input Validation",
+    "question": "A user submits a form that creates a product with a negative price and a 10,000-character description. Where and how should validation happen and what response should the API return?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "API Development",
+    "difficulty": "Junior",
+    "skill": "Authentication Basics",
+    "question": "What is the difference between authentication and authorization? Give a concrete API example where a user passes authentication but fails authorization."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "API Development",
+    "difficulty": "Junior",
+    "skill": "Error Responses",
+    "question": "Design a consistent error response format for a REST API. What fields should it include and how do you balance providing useful debugging information versus hiding sensitive details?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "API Development",
+    "difficulty": "Mid",
+    "skill": "API Versioning",
+    "question": "You need to introduce a breaking change to a public API used by hundreds of third-party clients. Compare URL versioning, header versioning, and content negotiation. Which would you choose?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "API Development",
+    "difficulty": "Mid",
+    "skill": "Rate Limiting",
+    "question": "Implement a rate limiter for an API that allows 100 requests per minute per user. Compare the fixed window, sliding window, and token bucket algorithms. Which would you use and why?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "API Development",
+    "difficulty": "Mid",
+    "skill": "JWT",
+    "question": "Explain how JWT authentication works including signing, validation, and token expiry. How would you implement token refresh and handle revocation before expiry?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "API Development",
+    "difficulty": "Mid",
+    "skill": "Pagination",
+    "question": "Compare offset-based pagination and cursor-based pagination for a GET /feed endpoint serving real-time data. Why does offset pagination break for real-time feeds?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "API Development",
+    "difficulty": "Mid",
+    "skill": "GraphQL vs REST",
+    "question": "A mobile client complains that REST endpoints are overfetching and underfetching data. Evaluate whether GraphQL would solve this and what operational costs it introduces."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "API Development",
+    "difficulty": "Senior",
+    "skill": "API Gateway",
+    "question": "Design an API gateway layer for 20 microservices. What responsibilities belong at the gateway versus individual services and how do you handle authentication, routing, and observability?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "API Development",
+    "difficulty": "Senior",
+    "skill": "Webhook Design",
+    "question": "Design a reliable webhook delivery system that guarantees at-least-once delivery to third-party endpoints that may be slow or temporarily unavailable. How do you handle retries and ordering?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "API Development",
+    "difficulty": "Senior",
+    "skill": "OAuth",
+    "question": "Explain the OAuth 2.0 authorization code flow with PKCE. Design the complete authentication flow for a mobile app that accesses your API on behalf of a user."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "API Development",
+    "difficulty": "Senior",
+    "skill": "Backwards Compatibility",
+    "question": "You maintain a public API used by 500 enterprise clients. How do you manage API lifecycle including deprecation policies, sunset headers, and migration support?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "API Development",
+    "difficulty": "Senior",
+    "skill": "gRPC",
+    "question": "Compare gRPC and REST for internal microservice communication. For which types of services would you recommend gRPC and what are the operational costs of adopting it?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Backend Frameworks",
+    "difficulty": "Junior",
+    "skill": "Request Lifecycle",
+    "question": "Describe the lifecycle of an HTTP request in a backend framework like Express, FastAPI, or Spring Boot from the moment it arrives to when the response is sent."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Backend Frameworks",
+    "difficulty": "Junior",
+    "skill": "Middleware",
+    "question": "What is middleware in the context of a backend framework? Give three examples of functionality that belongs in middleware rather than in a route handler."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Backend Frameworks",
+    "difficulty": "Junior",
+    "skill": "Routing",
+    "question": "How would you organize routes in an Express or FastAPI application that has 50+ endpoints across multiple resource types? What folder structure would you use?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Backend Frameworks",
+    "difficulty": "Junior",
+    "skill": "ORM Basics",
+    "question": "What is an ORM and what are the advantages and disadvantages of using one compared to writing raw SQL in your backend service?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Backend Frameworks",
+    "difficulty": "Junior",
+    "skill": "Configuration",
+    "question": "How would you structure configuration management in a backend application that runs in development, staging, and production environments with different database and API keys?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Backend Frameworks",
+    "difficulty": "Mid",
+    "skill": "Async Frameworks",
+    "question": "Explain how FastAPI or Node.js handles thousands of concurrent connections with a single thread. What types of operations can block the event loop and how do you avoid them?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Backend Frameworks",
+    "difficulty": "Mid",
+    "skill": "Dependency Injection",
+    "question": "How does the DI container in Spring Boot or FastAPI work? Show how you would inject different database implementations depending on the environment."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Backend Frameworks",
+    "difficulty": "Mid",
+    "skill": "Database Pooling",
+    "question": "Your backend service has 20 instances and each opens 10 database connections, overwhelming your PostgreSQL server. How do connection pools work and how would you configure them correctly?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Backend Frameworks",
+    "difficulty": "Mid",
+    "skill": "Scheduled Tasks",
+    "question": "You need to run a data cleanup job every night at 2am. How would you implement this in your framework and what happens when you scale to multiple instances?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Backend Frameworks",
+    "difficulty": "Mid",
+    "skill": "API Documentation",
+    "question": "How would you set up automatic API documentation using OpenAPI/Swagger in FastAPI or Spring Boot? What makes good API documentation for external developers?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Backend Frameworks",
+    "difficulty": "Senior",
+    "skill": "Framework Selection",
+    "question": "Your team needs to build a new service that handles 50k requests per second with sub-10ms P99 latency. Walk through your framework and language selection process with justifications."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Backend Frameworks",
+    "difficulty": "Senior",
+    "skill": "Plugin Architecture",
+    "question": "Design a plugin-based architecture for a backend framework that allows teams to add new functionality like authentication strategies or logging backends without modifying core code."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Backend Frameworks",
+    "difficulty": "Senior",
+    "skill": "Multi-tenancy",
+    "question": "Design a multi-tenant SaaS backend where each tenant needs data isolation. Compare database-per-tenant, schema-per-tenant, and shared-table approaches for a system expecting 10,000 tenants."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Backend Frameworks",
+    "difficulty": "Senior",
+    "skill": "Framework Migration",
+    "question": "You need to migrate a large Django monolith to FastAPI while keeping the service running with zero downtime. What is your migration strategy and how do you manage the transition period?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Backend Frameworks",
+    "difficulty": "Senior",
+    "skill": "Performance Profiling",
+    "question": "Your FastAPI service has a p99 latency of 2 seconds but average latency is 50ms. Walk through how you would profile and identify the root cause of these latency spikes."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "System Design",
+    "difficulty": "Junior",
+    "skill": "Client-Server",
+    "question": "Explain the client-server model. When a user searches on Google, what happens between their browser and Google's servers at a high level?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "System Design",
+    "difficulty": "Junior",
+    "skill": "Monolith vs Microservices",
+    "question": "What is the difference between a monolith and microservices architecture? For a two-person startup building an MVP, which would you recommend and why?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "System Design",
+    "difficulty": "Junior",
+    "skill": "Load Balancing",
+    "question": "What is a load balancer and why do you need one? Describe round-robin and least-connections load balancing strategies."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "System Design",
+    "difficulty": "Junior",
+    "skill": "Scalability",
+    "question": "What is the difference between vertical scaling and horizontal scaling? Give a concrete example of when each is appropriate."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "System Design",
+    "difficulty": "Junior",
+    "skill": "DNS",
+    "question": "Explain what happens at the DNS level when a user types a URL into their browser. Why is DNS caching important for performance?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "System Design",
+    "difficulty": "Mid",
+    "skill": "URL Shortener",
+    "question": "Design a URL shortening service like bit.ly. How would you generate unique short codes, store mappings, and handle 100 million redirects per day?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "System Design",
+    "difficulty": "Mid",
+    "skill": "Rate Limiting Architecture",
+    "question": "Design a distributed rate limiting system that works correctly across 50 backend instances. How do you keep counters synchronized without the coordination becoming a bottleneck?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "System Design",
+    "difficulty": "Mid",
+    "skill": "Notification System",
+    "question": "Design a notification service that can send push, email, and SMS notifications to 10 million users. How would you handle different delivery priorities and user preferences?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "System Design",
+    "difficulty": "Mid",
+    "skill": "File Upload",
+    "question": "Design a file upload service that handles large files up to 5GB. How would you implement chunked upload, resume on failure, and virus scanning without blocking the API?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "System Design",
+    "difficulty": "Mid",
+    "skill": "Search",
+    "question": "Design a product search feature for an e-commerce platform. When would you use your existing database versus a dedicated search engine like Elasticsearch and what are the trade-offs?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "System Design",
+    "difficulty": "Senior",
+    "skill": "CAP Theorem",
+    "question": "Explain the CAP theorem with concrete examples. For a ride-sharing app that matches drivers to riders, which properties would you prioritize and what consistency trade-offs would you accept?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "System Design",
+    "difficulty": "Senior",
+    "skill": "Social Feed",
+    "question": "Design the backend for a social media news feed like Twitter that serves 100 million users. Compare fan-out-on-write versus fan-out-on-read and when would you use a hybrid approach?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "System Design",
+    "difficulty": "Senior",
+    "skill": "Distributed Locks",
+    "question": "Design a distributed locking mechanism for a job scheduler that must guarantee a job runs on exactly one instance. What are the failure modes of Redis-based distributed locks?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "System Design",
+    "difficulty": "Senior",
+    "skill": "Chat System",
+    "question": "Design a real-time chat system supporting 1 million concurrent users. How would you handle message delivery guarantees, presence indicators, and message history at scale?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "System Design",
+    "difficulty": "Senior",
+    "skill": "Global Architecture",
+    "question": "Design a globally distributed API serving users across 5 continents with requirements for data residency compliance, sub-100ms latency, and 99.99% availability."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Caching & Messaging",
+    "difficulty": "Junior",
+    "skill": "Caching Basics",
+    "question": "What is caching and why is it used? Give three examples of data in a backend service that is a good candidate for caching."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Caching & Messaging",
+    "difficulty": "Junior",
+    "skill": "Cache Invalidation",
+    "question": "You cache a user's profile data for 10 minutes but the user updates their name and sees stale data. How would you handle cache invalidation in this scenario?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Caching & Messaging",
+    "difficulty": "Junior",
+    "skill": "Redis Basics",
+    "question": "What data structures does Redis support beyond key-value strings? Give a practical backend use case for Redis lists, sets, and sorted sets."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Caching & Messaging",
+    "difficulty": "Junior",
+    "skill": "Message Queues",
+    "question": "What is a message queue and why would you use one instead of direct service-to-service HTTP calls? Give a real-world example."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Caching & Messaging",
+    "difficulty": "Junior",
+    "skill": "Pub/Sub",
+    "question": "Explain the publish-subscribe messaging pattern. How does it differ from a traditional message queue and when would you use each?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Caching & Messaging",
+    "difficulty": "Mid",
+    "skill": "Cache Strategies",
+    "question": "Compare cache-aside, write-through, and write-behind caching strategies. For a product catalog that is read-heavy but updated occasionally, which would you choose?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Caching & Messaging",
+    "difficulty": "Mid",
+    "skill": "Kafka Fundamentals",
+    "question": "Explain Kafka topics, partitions, consumer groups, and offsets. How does Kafka achieve high throughput and how does partition count affect parallelism?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Caching & Messaging",
+    "difficulty": "Mid",
+    "skill": "Cache Stampede",
+    "question": "Your Redis cache expires a popular key and 10,000 concurrent requests all hit the database simultaneously. What is this called and how do you prevent it?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Caching & Messaging",
+    "difficulty": "Mid",
+    "skill": "Message Delivery",
+    "question": "Explain the difference between at-most-once, at-least-once, and exactly-once message delivery. For a payment processing system, which guarantee do you need and how do you achieve it?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Caching & Messaging",
+    "difficulty": "Mid",
+    "skill": "Dead Letter Queues",
+    "question": "A consumer fails to process a message repeatedly, blocking the queue. How would you implement a dead letter queue and what is your strategy for reprocessing failed messages?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Caching & Messaging",
+    "difficulty": "Senior",
+    "skill": "Event-Driven Architecture",
+    "question": "Design an event-driven order processing system using Kafka where order placement, payment, inventory, and shipping are separate services. How do you handle partial failures across the pipeline?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Caching & Messaging",
+    "difficulty": "Senior",
+    "skill": "Cache Architecture",
+    "question": "Design a multi-layer caching strategy for an API serving 1 million requests per second. How would you combine CDN, application-level, and database query caches with appropriate TTLs and invalidation?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Caching & Messaging",
+    "difficulty": "Senior",
+    "skill": "Kafka at Scale",
+    "question": "Your Kafka consumer lag is growing and consumers cannot keep up with producers. Walk through the options including partition scaling, consumer group optimization, and consumer performance tuning."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Caching & Messaging",
+    "difficulty": "Senior",
+    "skill": "Ordering Guarantees",
+    "question": "You need to process user events in strict order per user but want parallelism across users. How would you design your Kafka topic partitioning and consumer logic to guarantee this?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Caching & Messaging",
+    "difficulty": "Senior",
+    "skill": "Redis Cluster",
+    "question": "Design a Redis cluster for a session store serving 5 million active users. How do you handle sharding, replication, failover, and hot key problems?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "DevOps & Cloud",
+    "difficulty": "Junior",
+    "skill": "Docker",
+    "question": "Write a Dockerfile for a Python FastAPI application. What is the difference between CMD and ENTRYPOINT and why should you use a non-root user?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "DevOps & Cloud",
+    "difficulty": "Junior",
+    "skill": "CI/CD",
+    "question": "What is the difference between continuous integration, continuous delivery, and continuous deployment? What automated steps would you include in a CI pipeline for a backend service?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "DevOps & Cloud",
+    "difficulty": "Junior",
+    "skill": "Cloud Basics",
+    "question": "What is the difference between IaaS, PaaS, and SaaS? Give an AWS or GCP example of each and when you would use each for deploying a backend service."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "DevOps & Cloud",
+    "difficulty": "Junior",
+    "skill": "Environment Management",
+    "question": "How would you manage secrets like API keys and database passwords for a containerized backend service in production? What should you never do?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "DevOps & Cloud",
+    "difficulty": "Junior",
+    "skill": "Health Checks",
+    "question": "What is a health check endpoint and what should it verify? What is the difference between a liveness check and a readiness check?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "DevOps & Cloud",
+    "difficulty": "Mid",
+    "skill": "Docker Compose",
+    "question": "Write a docker-compose file for a backend service that requires a PostgreSQL database, a Redis instance, and a worker process. How do you handle service startup ordering and health checks?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "DevOps & Cloud",
+    "difficulty": "Mid",
+    "skill": "Kubernetes",
+    "question": "Explain the difference between a Kubernetes Deployment, Service, and Ingress. How would you configure horizontal pod autoscaling for a backend API service?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "DevOps & Cloud",
+    "difficulty": "Mid",
+    "skill": "Blue-Green Deployment",
+    "question": "Describe a blue-green deployment strategy for a backend service with zero downtime. How do you handle database migrations that are required for the new version?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "DevOps & Cloud",
+    "difficulty": "Mid",
+    "skill": "Observability",
+    "question": "Set up a monitoring and alerting stack for a production backend service. What metrics would you collect, what dashboards would you build, and what would trigger a PagerDuty alert?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "DevOps & Cloud",
+    "difficulty": "Mid",
+    "skill": "Infrastructure as Code",
+    "question": "What is Infrastructure as Code and why is it important? Compare Terraform and CloudFormation for managing AWS resources for a backend service."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "DevOps & Cloud",
+    "difficulty": "Senior",
+    "skill": "Multi-Region",
+    "question": "Design the cloud infrastructure for a backend API that must be deployed across three AWS regions with automatic failover, data replication, and less than 30 second RTO."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "DevOps & Cloud",
+    "difficulty": "Senior",
+    "skill": "Kubernetes at Scale",
+    "question": "You manage a Kubernetes cluster running 200 microservices. How do you handle resource quotas, namespace isolation, network policies, and pod disruption budgets for reliability?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "DevOps & Cloud",
+    "difficulty": "Senior",
+    "skill": "Cost Optimization",
+    "question": "Your AWS bill is $300k per month. Walk through a systematic approach to identify and reduce the top cost drivers without impacting service reliability or performance."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "DevOps & Cloud",
+    "difficulty": "Senior",
+    "skill": "Disaster Recovery",
+    "question": "Design a disaster recovery plan for a critical backend service with an RPO of 1 hour and RTO of 15 minutes. What backup strategies, failover mechanisms, and runbooks would you put in place?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "DevOps & Cloud",
+    "difficulty": "Senior",
+    "skill": "Service Mesh",
+    "question": "What problem does a service mesh like Istio solve that Kubernetes alone does not? When is the operational overhead of a service mesh justified and when is it overkill?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Testing & Security",
+    "difficulty": "Junior",
+    "skill": "Unit Testing",
+    "question": "Write a unit test for a function that calculates the total price of a shopping cart including tax. What edge cases would you cover and how do you avoid testing framework internals?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Testing & Security",
+    "difficulty": "Junior",
+    "skill": "SQL Injection",
+    "question": "Explain SQL injection with a concrete example. How does using parameterized queries or an ORM prevent it?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Testing & Security",
+    "difficulty": "Junior",
+    "skill": "Password Security",
+    "question": "A colleague stores user passwords as MD5 hashes in the database. What is wrong with this and how would you fix it?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Testing & Security",
+    "difficulty": "Junior",
+    "skill": "Test Mocking",
+    "question": "When writing unit tests for a service that sends emails, why should you mock the email provider and how would you verify the email was sent with the correct content?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Testing & Security",
+    "difficulty": "Junior",
+    "skill": "HTTPS",
+    "question": "Why is HTTPS important for a backend API even if it only serves mobile apps? What does TLS actually protect against and what does it not protect against?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Testing & Security",
+    "difficulty": "Mid",
+    "skill": "Integration Testing",
+    "question": "Design an integration test suite for a REST API endpoint that creates an order, charges a payment, and sends a confirmation email. How do you isolate external services?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Testing & Security",
+    "difficulty": "Mid",
+    "skill": "OWASP",
+    "question": "Walk me through the OWASP Top 10 and describe which three vulnerabilities are most relevant to a typical backend REST API service and how you would mitigate them."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Testing & Security",
+    "difficulty": "Mid",
+    "skill": "CSRF",
+    "question": "Explain CSRF attacks and how they work. If your API uses JWT tokens in Authorization headers instead of cookies, are you still vulnerable to CSRF and why?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Testing & Security",
+    "difficulty": "Mid",
+    "skill": "Test Coverage",
+    "question": "Your team enforces 80% test coverage but still ships regressions frequently. What does coverage not measure and how would you improve test quality beyond the coverage metric?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Testing & Security",
+    "difficulty": "Mid",
+    "skill": "Secrets Management",
+    "question": "Design a secrets management strategy for a microservices architecture running on Kubernetes. How do you handle secret rotation without service downtime?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Testing & Security",
+    "difficulty": "Senior",
+    "skill": "Security Architecture",
+    "question": "Design the security architecture for a fintech API handling PCI-DSS compliance. Cover network segmentation, encryption at rest and in transit, audit logging, and access control."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Testing & Security",
+    "difficulty": "Senior",
+    "skill": "Penetration Testing",
+    "question": "Your company is about to launch a public API. How would you structure a pre-launch security review including threat modeling, penetration testing scope, and remediation prioritization?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Testing & Security",
+    "difficulty": "Senior",
+    "skill": "Zero Trust",
+    "question": "Explain the Zero Trust security model. How would you implement Zero Trust principles for service-to-service communication in a microservices architecture?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Testing & Security",
+    "difficulty": "Senior",
+    "skill": "Chaos Engineering",
+    "question": "How would you implement chaos engineering for a critical backend system to validate fault tolerance? What experiments would you run first and how do you do this safely in production?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Testing & Security",
+    "difficulty": "Senior",
+    "skill": "Supply Chain Security",
+    "question": "The Log4Shell vulnerability affected thousands of services through a transitive dependency. How would you design processes and tooling to detect and respond to such supply chain vulnerabilities quickly?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Performance & Scalability",
+    "difficulty": "Junior",
+    "skill": "Profiling",
+    "question": "Your API endpoint that lists products is slow. How would you begin to diagnose whether the bottleneck is in the application code, the database query, or the network?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Performance & Scalability",
+    "difficulty": "Junior",
+    "skill": "Pagination",
+    "question": "An endpoint returns all 500,000 records from a database in a single response and the server runs out of memory. How would you fix this immediately and redesign the endpoint?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Performance & Scalability",
+    "difficulty": "Junior",
+    "skill": "Async Processing",
+    "question": "A synchronous API request takes 30 seconds because it processes a large CSV file. How would you redesign this as an asynchronous workflow so the API responds quickly?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Performance & Scalability",
+    "difficulty": "Junior",
+    "skill": "Database Performance",
+    "question": "You notice a dashboard query that JOINs five large tables is timing out. What immediate steps would you take before reaching for optimization techniques?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Performance & Scalability",
+    "difficulty": "Junior",
+    "skill": "HTTP Optimization",
+    "question": "What is the benefit of enabling GZIP compression on your API responses? Are there cases where you should not compress responses?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Performance & Scalability",
+    "difficulty": "Mid",
+    "skill": "Load Testing",
+    "question": "How would you load test a new API before launch? What tools would you use, what scenarios would you simulate, and what metrics would determine if the service is ready for production traffic?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Performance & Scalability",
+    "difficulty": "Mid",
+    "skill": "Connection Pooling",
+    "question": "Your backend service under load gets errors saying too many clients already from PostgreSQL. Walk through diagnosing this and implementing proper connection pool sizing."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Performance & Scalability",
+    "difficulty": "Mid",
+    "skill": "Async IO",
+    "question": "Compare thread-per-request and async IO models for handling concurrent backend requests. For an API that makes heavy use of external HTTP calls, which model is more efficient and why?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Performance & Scalability",
+    "difficulty": "Mid",
+    "skill": "Denormalization",
+    "question": "Your analytics queries are too slow because they join many normalized tables. When is denormalization the right solution and what operational problems does it introduce?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Performance & Scalability",
+    "difficulty": "Mid",
+    "skill": "Latency Optimization",
+    "question": "Your service calls three downstream APIs sequentially, each taking 200ms. How would you restructure these calls to reduce total latency and what error handling strategy changes does this require?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Performance & Scalability",
+    "difficulty": "Senior",
+    "skill": "Capacity Planning",
+    "question": "Your service currently handles 10k requests per second and needs to scale to 100k in 6 months due to business growth. Design a capacity planning exercise and scaling roadmap."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Performance & Scalability",
+    "difficulty": "Senior",
+    "skill": "Hotspot Problems",
+    "question": "A celebrity user with 50 million followers posts on your platform causing a sudden traffic spike that takes down your service. How would you design the system to handle such hotspot problems?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Performance & Scalability",
+    "difficulty": "Senior",
+    "skill": "Backpressure",
+    "question": "Your data ingestion service receives traffic bursts that overwhelm downstream processors. Explain backpressure and design a system that gracefully handles traffic bursts without dropping data or crashing."
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Performance & Scalability",
+    "difficulty": "Senior",
+    "skill": "SLO Engineering",
+    "question": "Define SLOs, SLAs, and SLIs for a payments API. How would you set error budgets, measure burn rate, and use this data to make engineering decisions about reliability versus feature velocity?"
+  },
+  {
+    "role": "Backend Engineer",
+    "category": "Performance & Scalability",
+    "difficulty": "Senior",
+    "skill": "Performance Culture",
+    "question": "How would you build a performance engineering culture in a team of 30 engineers where performance is consistently deprioritized for feature work? What processes, tooling, and metrics would you establish?"
+  }
+]

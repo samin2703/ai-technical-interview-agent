@@ -1,0 +1,1052 @@
+[
+  {
+    "role": "Data Analyst",
+    "category": "SQL",
+    "difficulty": "Junior",
+    "skill": "SELECT and filtering",
+    "question": "You have a table called 'orders' with columns order_id, customer_id, order_date, and total_amount. Write a query to retrieve all orders placed in January 2024 where the total amount is greater than $100."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "SQL",
+    "difficulty": "Junior",
+    "skill": "GROUP BY and aggregation",
+    "question": "Given a 'sales' table with columns product_id, region, and revenue, write a query to find the total revenue per region, sorted from highest to lowest."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "SQL",
+    "difficulty": "Junior",
+    "skill": "JOINs",
+    "question": "You have a 'customers' table and an 'orders' table joined on customer_id. Write a query to list all customers who have placed at least one order, showing their name and total number of orders."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "SQL",
+    "difficulty": "Junior",
+    "skill": "NULL handling",
+    "question": "Your 'employees' table has a column 'manager_id' that is NULL for top-level managers. Write a query to count how many employees do not have a manager assigned."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "SQL",
+    "difficulty": "Junior",
+    "skill": "ORDER BY and LIMIT",
+    "question": "From a 'products' table with columns product_name, category, and price, write a query to find the top 5 most expensive products in the 'Electronics' category."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "SQL",
+    "difficulty": "Mid",
+    "skill": "Window functions",
+    "question": "You need to calculate a running total of daily sales revenue for each product over the course of a month. Write a SQL query using a window function to achieve this from a 'daily_sales' table with columns product_id, sale_date, and revenue."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "SQL",
+    "difficulty": "Mid",
+    "skill": "CTEs",
+    "question": "Using a CTE, write a query to find all customers whose total spending in the last 90 days exceeds the average total spending of all customers in the same period. Use an 'orders' table with customer_id, order_date, and amount."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "SQL",
+    "difficulty": "Mid",
+    "skill": "Subqueries",
+    "question": "From a 'transactions' table, write a query to find all users who made a purchase in both January and February 2024. How would you approach this using subqueries versus JOINs, and which would you prefer and why?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "SQL",
+    "difficulty": "Mid",
+    "skill": "Query optimization",
+    "question": "A query joining three large tables is taking over 30 seconds to run. The analyst before you wrote it with multiple nested subqueries. What steps would you take to diagnose and optimize this query's performance?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "SQL",
+    "difficulty": "Mid",
+    "skill": "CASE statements",
+    "question": "You have a 'user_activity' table and need to segment users into 'High', 'Medium', and 'Low' engagement tiers based on their number of logins in the past 30 days (High: 20+, Medium: 5-19, Low: 0-4). Write a query to produce a count of users in each tier."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "SQL",
+    "difficulty": "Senior",
+    "skill": "Advanced SQL optimization",
+    "question": "Your company's reporting dashboard queries a fact table with 500 million rows. Stakeholders are complaining about slow load times. Walk me through the strategies you would use — from query rewriting to infrastructure-level decisions — to address this performance issue."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "SQL",
+    "difficulty": "Senior",
+    "skill": "Data warehouse design",
+    "question": "You're designing SQL queries for a star schema data warehouse. A business analyst asks for a report that mixes grain levels — daily sales and monthly targets in the same view. How would you handle the different granularities in your SQL without distorting the numbers?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "SQL",
+    "difficulty": "Senior",
+    "skill": "Advanced window functions",
+    "question": "You need to identify customers who churned (no purchase in 90+ days after their previous purchase) and then returned. Write a SQL query using window functions to detect these win-back customers from a purchases table."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "SQL",
+    "difficulty": "Senior",
+    "skill": "Recursive CTEs",
+    "question": "Your company has a hierarchical org chart stored in an 'employees' table with employee_id and manager_id. Write a recursive CTE to find all direct and indirect reports of a given manager, showing the depth level of each employee in the hierarchy."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "SQL",
+    "difficulty": "Senior",
+    "skill": "Data quality via SQL",
+    "question": "You've been asked to implement a data quality check layer in SQL before data enters your reporting tables. What SQL-based checks would you build to catch issues like duplicate primary keys, referential integrity violations, out-of-range values, and unexpected NULLs?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Python",
+    "difficulty": "Junior",
+    "skill": "Pandas basics",
+    "question": "You've loaded a CSV file into a Pandas DataFrame. The dataset has 10,000 rows and includes a column 'age' with some missing values. How would you check how many values are missing, and what are two approaches you might take to handle them?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Python",
+    "difficulty": "Junior",
+    "skill": "DataFrame filtering",
+    "question": "Given a DataFrame of customer transactions, write Python code to filter for all transactions over $500 made by customers in the 'West' region in Q1 2024."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Python",
+    "difficulty": "Junior",
+    "skill": "GroupBy and aggregation",
+    "question": "You have a Pandas DataFrame with columns 'store_id', 'date', and 'sales'. Write code to calculate the average daily sales per store and sort the result from highest to lowest average."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Python",
+    "difficulty": "Junior",
+    "skill": "Basic data types and operations",
+    "question": "You're reading a CSV where a 'revenue' column imported as a string type (e.g., '$1,200.50'). Write Python code to clean this column and convert it to a float so you can perform calculations on it."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Python",
+    "difficulty": "Junior",
+    "skill": "Merging DataFrames",
+    "question": "You have two DataFrames: one with customer information and one with order history, both containing a 'customer_id' column. Write code to join them so you can see each order alongside the customer's name and email."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Python",
+    "difficulty": "Mid",
+    "skill": "Advanced Pandas",
+    "question": "You have a DataFrame of daily website traffic with columns 'date', 'page', and 'visits'. Write code to calculate a 7-day rolling average of visits for each page and flag any day where visits dropped more than 30% below the rolling average."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Python",
+    "difficulty": "Mid",
+    "skill": "Data wrangling",
+    "question": "You receive a dataset where one column contains multiple values as a comma-separated string (e.g., 'tag1,tag2,tag3'). Describe and write code to explode this into separate rows so each tag gets its own row while preserving the other column values."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Python",
+    "difficulty": "Mid",
+    "skill": "Feature engineering",
+    "question": "You have a user activity log with 'user_id' and 'event_timestamp'. Write Python code to engineer features such as: days since last activity, total events per user, and average time between events — to feed into a churn analysis."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Python",
+    "difficulty": "Mid",
+    "skill": "Debugging",
+    "question": "A colleague's Python script runs without error but produces incorrect aggregated results — the totals are higher than expected. What are the most common root causes you'd investigate first, and how would you systematically debug the issue?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Python",
+    "difficulty": "Mid",
+    "skill": "Automation and efficiency",
+    "question": "You currently run the same data processing script manually each Monday morning against a new weekly CSV file. How would you refactor and automate this process using Python so it runs without manual intervention?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Python",
+    "difficulty": "Senior",
+    "skill": "Large-scale data processing",
+    "question": "You need to process a 50GB CSV file in Python, but it doesn't fit in memory. Walk me through at least three approaches you would consider, including their trade-offs, to process this data efficiently."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Python",
+    "difficulty": "Senior",
+    "skill": "Statistical analysis in Python",
+    "question": "You're asked to evaluate whether a new pricing strategy significantly increased average order value. Walk through the full Python-based statistical workflow you'd use, from data preparation to conclusion, including how you'd handle non-normal distributions."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Python",
+    "difficulty": "Senior",
+    "skill": "Code quality and best practices",
+    "question": "You're reviewing a junior analyst's Python notebook. It works correctly but has hardcoded file paths, no error handling, repeated copy-pasted blocks, and no documentation. How would you restructure it and what standards would you establish for the team?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Python",
+    "difficulty": "Senior",
+    "skill": "API data extraction",
+    "question": "You need to pull data from a REST API that paginates results and has rate limiting (100 requests per minute). Write a robust Python script that handles pagination, respects rate limits, handles errors gracefully, and stores results efficiently."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Python",
+    "difficulty": "Senior",
+    "skill": "End-to-end pipeline design",
+    "question": "The business needs a daily automated report pulling from a database, transforming data, and emailing a formatted summary to leadership. Design and describe the full Python-based pipeline you'd build, including error alerting and logging."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Statistics",
+    "difficulty": "Junior",
+    "skill": "Descriptive statistics",
+    "question": "You're analyzing customer purchase amounts: the mean is $85 but the median is $42. What does this tell you about the data distribution, and which measure would you report to the business and why?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Statistics",
+    "difficulty": "Junior",
+    "skill": "Distributions",
+    "question": "After pulling a report on employee salaries, you notice the histogram has a long right tail. What does this mean in plain terms, and how might it affect your analysis if you were trying to identify a typical salary?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Statistics",
+    "difficulty": "Junior",
+    "skill": "Percentiles and quartiles",
+    "question": "A customer success manager asks you what the 90th percentile of support ticket resolution time means. How would you explain it in plain business language, and why might this metric be more useful than the average?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Statistics",
+    "difficulty": "Junior",
+    "skill": "Correlation basics",
+    "question": "Your manager sees that ice cream sales and sunscreen sales both increase in summer and says 'ice cream causes sunscreen purchases.' How would you explain the flaw in this reasoning and what concept does this illustrate?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Statistics",
+    "difficulty": "Junior",
+    "skill": "Basic probability",
+    "question": "In a dataset of 1,000 website visitors, 200 made a purchase. If you randomly sample 10 visitors, what is the probability that exactly 2 made a purchase? What statistical concept or distribution would you use to calculate this?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Statistics",
+    "difficulty": "Mid",
+    "skill": "Hypothesis testing",
+    "question": "You ran a campaign and want to know if the conversion rate increased from 3.2% to 3.8%. Describe the hypothesis test you'd use, how you'd determine sample size, and how you'd interpret the p-value for a non-technical stakeholder."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Statistics",
+    "difficulty": "Mid",
+    "skill": "Confidence intervals",
+    "question": "You report that average order value is $72 with a 95% confidence interval of [$68, $76]. A product manager asks 'does this mean there's a 95% chance the true average is in that range?' How do you correct this misconception and what does the interval actually mean?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Statistics",
+    "difficulty": "Mid",
+    "skill": "Correlation vs causation",
+    "question": "An analyst finds a strong positive correlation (r=0.82) between the number of sales reps and revenue. The VP of Sales concludes 'hiring more reps will always increase revenue.' What concerns would you raise, and how would you frame a more rigorous analysis?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Statistics",
+    "difficulty": "Mid",
+    "skill": "Outlier detection",
+    "question": "You're analyzing monthly revenue data and notice three months with unusually high values. Before deciding to remove them, what process would you follow to determine whether they are genuine outliers, data errors, or legitimate business events?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Statistics",
+    "difficulty": "Mid",
+    "skill": "Sampling bias",
+    "question": "You conducted a customer satisfaction survey and received 2,000 responses out of 50,000 emails sent. The results show 92% satisfaction. What are the statistical concerns with using this number to represent all customers, and how might you caveat this finding?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Statistics",
+    "difficulty": "Senior",
+    "skill": "Bayesian thinking",
+    "question": "Your A/B test shows the treatment group has a higher conversion rate, but the result is not statistically significant at p<0.05. A business stakeholder wants to ship the change anyway. How do you navigate this, and would a Bayesian approach give you a different perspective?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Statistics",
+    "difficulty": "Senior",
+    "skill": "Regression analysis",
+    "question": "You built a linear regression model to predict monthly churn. The R² is 0.71. A stakeholder asks if this means the model is good. Walk through how you'd evaluate whether this model is actually useful for business decision-making beyond the R² value."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Statistics",
+    "difficulty": "Senior",
+    "skill": "Forecasting",
+    "question": "The finance team wants a monthly revenue forecast for the next 12 months. You have 3 years of historical data with clear seasonality and an overall upward trend. What forecasting approaches would you consider, and how would you communicate forecast uncertainty to leadership?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Statistics",
+    "difficulty": "Senior",
+    "skill": "Multi-variate analysis",
+    "question": "Marketing wants to know which combination of factors (age group, channel, product category, time of day) most strongly drives conversion. How would you structure your statistical analysis, and what pitfalls — like multicollinearity or overfitting — would you watch for?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Statistics",
+    "difficulty": "Senior",
+    "skill": "Statistical governance",
+    "question": "You discover that another team has been running 15 simultaneous A/B tests on the same user population and reporting each test's p-value independently. What statistical problem does this create, and how would you establish a proper experimentation framework to address it?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Cleaning & Preparation",
+    "difficulty": "Junior",
+    "skill": "Missing value handling",
+    "question": "You receive a dataset of customer records where 15% of the 'phone_number' column is empty and 2% of 'email' is empty. How do you decide what to do with each — and does your approach differ based on how the data will be used?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Cleaning & Preparation",
+    "difficulty": "Junior",
+    "skill": "Duplicate detection",
+    "question": "You're preparing a customer list for a marketing campaign and suspect there are duplicates. Describe the steps you'd take to identify and remove duplicate records, considering that the same customer might have slightly different name spellings across rows."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Cleaning & Preparation",
+    "difficulty": "Junior",
+    "skill": "Data type correction",
+    "question": "After importing a sales dataset, you notice the 'order_date' column is stored as a string in 'MM/DD/YYYY' format and the 'quantity' column contains some entries like '12 units'. How would you clean these columns to make them usable for analysis?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Cleaning & Preparation",
+    "difficulty": "Junior",
+    "skill": "Standardization",
+    "question": "A 'country' column in your dataset has values like 'USA', 'U.S.A.', 'United States', and 'US'. How would you standardize this column, and what tool or approach would you use — SQL, Python, or Excel?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Cleaning & Preparation",
+    "difficulty": "Junior",
+    "skill": "Basic validation",
+    "question": "You receive a dataset of survey responses where age should be between 18 and 100, but some values are 0, 999, or negative. How do you identify and handle these invalid entries before running your analysis?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Cleaning & Preparation",
+    "difficulty": "Mid",
+    "skill": "Complex deduplication",
+    "question": "You're merging two customer databases from different systems. Both have customer records but use different ID schemes, and some customers exist in both. Describe a strategy to deduplicate using fuzzy matching on name, email, and address fields."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Cleaning & Preparation",
+    "difficulty": "Mid",
+    "skill": "Outlier treatment",
+    "question": "In a dataset of transaction amounts, you find some values 50x larger than the median. Before deciding how to treat them, what checks would you run, and how does your treatment decision change depending on whether you're building a dashboard vs. a statistical model?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Cleaning & Preparation",
+    "difficulty": "Mid",
+    "skill": "Joining messy data",
+    "question": "You need to join a table from a legacy system to a modern one, but the shared key (product code) has inconsistent formatting — sometimes with leading zeros, different cases, and extra spaces. How do you prepare both keys for a reliable join?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Cleaning & Preparation",
+    "difficulty": "Mid",
+    "skill": "Reshaping data",
+    "question": "You have sales data in a wide format where each month is a separate column (Jan_sales, Feb_sales, etc.). The analysis requires the data in long format (one row per month per product). Demonstrate how you'd reshape this in Python or SQL."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Cleaning & Preparation",
+    "difficulty": "Mid",
+    "skill": "Data profiling",
+    "question": "You receive a new dataset from a vendor and have no documentation. Walk me through the data profiling steps you'd take before starting any analysis to understand the structure, quality, and completeness of the data."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Cleaning & Preparation",
+    "difficulty": "Senior",
+    "skill": "Data quality framework",
+    "question": "You're building a data quality framework for a team of 10 analysts who ingest data from 20 different source systems. What dimensions of data quality would you define, what checks would you automate, and how would you handle failures in the pipeline?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Cleaning & Preparation",
+    "difficulty": "Senior",
+    "skill": "Imputation strategy",
+    "question": "You're preparing a dataset for churn prediction where 25% of the 'last_login_date' values are missing. Missingness appears to correlate with user segment. How do you decide between deletion, mean/mode imputation, or model-based imputation, and what are the risks of each?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Cleaning & Preparation",
+    "difficulty": "Senior",
+    "skill": "Data lineage and governance",
+    "question": "A business stakeholder disputes a KPI figure in your report. How do you trace the data from the final number back through transformations to the source system to identify where a discrepancy might have been introduced?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Cleaning & Preparation",
+    "difficulty": "Senior",
+    "skill": "Handling schema changes",
+    "question": "An upstream system changed its data schema without notice — a column was renamed and two new columns were added — breaking your downstream ETL pipelines. How do you handle this immediately, and what processes do you put in place to prevent this from happening again?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Cleaning & Preparation",
+    "difficulty": "Senior",
+    "skill": "Cross-system reconciliation",
+    "question": "Your finance team reports $2.3M in revenue this month, but your analytics database shows $2.1M. Both teams believe their number is correct. How would you systematically reconcile this discrepancy across two different systems?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Visualization",
+    "difficulty": "Junior",
+    "skill": "Chart selection",
+    "question": "Your manager asks you to visualize monthly sales trends over 2 years and also show the proportion of sales by product category within each month. What chart types would you choose for each objective and why?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Visualization",
+    "difficulty": "Junior",
+    "skill": "Basic dashboard design",
+    "question": "You're building a simple sales dashboard for a regional manager who isn't technical. What 3-5 KPIs would you include, and how would you lay out the dashboard so it's immediately understandable when they open it each Monday?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Visualization",
+    "difficulty": "Junior",
+    "skill": "Color and design principles",
+    "question": "A colleague shares a dashboard with 12 different colors, pie charts with 15 slices, and no consistent formatting. What specific feedback would you give them about improving the visual design, and what are the core principles they should follow?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Visualization",
+    "difficulty": "Junior",
+    "skill": "Interpreting charts",
+    "question": "A bar chart shows that Region A has $1.2M in sales and Region B has $800K. A stakeholder concludes Region A is performing better. What additional context or charts would you add to make this comparison fair and meaningful?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Visualization",
+    "difficulty": "Junior",
+    "skill": "Excel charting",
+    "question": "You've created a line chart in Excel showing website traffic over 12 months, but the Y-axis starts at 8,000 instead of 0, making a small increase look dramatic. How do you identify and fix this, and why does this matter for honest reporting?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Visualization",
+    "difficulty": "Mid",
+    "skill": "Dashboard design best practices",
+    "question": "You're redesigning a Tableau or Power BI dashboard that executives use weekly. Users have complained it's 'too busy.' How do you approach the redesign process, including how you gather requirements and decide what to remove or simplify?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Visualization",
+    "difficulty": "Mid",
+    "skill": "Data storytelling",
+    "question": "You've completed a deep analysis showing that customer retention drops significantly after month 3 of subscription. How do you turn this finding into a compelling data story for the product team — what visualizations, narrative structure, and call to action would you use?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Visualization",
+    "difficulty": "Mid",
+    "skill": "Interactivity and filtering",
+    "question": "A sales dashboard you built is used by both regional managers (who only want their region's data) and the VP of Sales (who wants a full picture). How do you design the dashboard to serve both audiences from a single report without creating multiple versions?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Visualization",
+    "difficulty": "Mid",
+    "skill": "Choosing the right visualization",
+    "question": "You have a dataset comparing the performance of 8 marketing channels across 5 metrics (CTR, CPC, conversion rate, ROAS, impressions). What visualization approach would best allow comparison across both channels and metrics simultaneously, and why?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Visualization",
+    "difficulty": "Mid",
+    "skill": "Geospatial visualization",
+    "question": "You need to show store performance across 200 locations in the United States on a map, where size indicates revenue and color indicates whether the store is above or below its monthly target. What tool and chart type would you use, and what design considerations apply?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Visualization",
+    "difficulty": "Senior",
+    "skill": "Executive-level reporting",
+    "question": "The CEO asks for a single-page monthly performance summary. You have access to 50+ metrics. How do you decide which 6-8 metrics to include, how do you design the layout for a 5-minute review, and how do you handle months where multiple KPIs are in the red?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Visualization",
+    "difficulty": "Senior",
+    "skill": "Self-serve analytics enablement",
+    "question": "You've been asked to build a self-serve analytics platform so that non-technical business users can explore data without needing analyst support for every question. What are the biggest challenges in designing this, and how do you balance flexibility with preventing misinterpretation of data?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Visualization",
+    "difficulty": "Senior",
+    "skill": "Performance optimization",
+    "question": "A Tableau dashboard used by 200 employees is loading in 45 seconds. Users are frustrated. Walk through the steps you'd take — from data source optimization to Tableau-specific techniques — to bring load time under 5 seconds."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Visualization",
+    "difficulty": "Senior",
+    "skill": "KPI framework design",
+    "question": "A new business unit has no established metrics. Leadership asks you to design a KPI framework from scratch. How do you identify the right metrics, ensure they are aligned with business strategy, avoid vanity metrics, and set up tracking and reporting?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Data Visualization",
+    "difficulty": "Senior",
+    "skill": "Misleading visualizations",
+    "question": "During a board presentation, an analyst shows a chart with a dual-axis that makes a 2% revenue increase look identical in magnitude to a 40% cost increase. As the senior analyst, how do you address this in the moment and what policies do you put in place to prevent misleading visualizations?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Business Analytics",
+    "difficulty": "Junior",
+    "skill": "KPI understanding",
+    "question": "A marketing manager says the campaign had a 'great CTR of 8%.' What other metrics would you want to see before agreeing that the campaign was successful, and why is CTR alone insufficient to evaluate campaign performance?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Business Analytics",
+    "difficulty": "Junior",
+    "skill": "Basic business metrics",
+    "question": "Explain the difference between revenue, gross profit, and net profit to a new analyst. Why is it important to be clear about which metric you're reporting on in a business analysis?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Business Analytics",
+    "difficulty": "Junior",
+    "skill": "Cohort analysis basics",
+    "question": "A product manager asks you to analyze whether users who signed up in Q1 behave differently from those who signed up in Q2. What is this type of analysis called, and how would you set it up at a basic level?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Business Analytics",
+    "difficulty": "Junior",
+    "skill": "Customer segmentation",
+    "question": "Your company wants to send targeted emails to different customer groups. You have data on purchase frequency, average order value, and last purchase date. How would you use this data to create simple customer segments for the marketing team?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Business Analytics",
+    "difficulty": "Junior",
+    "skill": "Metric interpretation",
+    "question": "Monthly Active Users (MAU) dropped by 12% this month. Your manager asks you to investigate. What are the first five questions you'd ask to begin diagnosing the cause, and what data would you pull first?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Business Analytics",
+    "difficulty": "Mid",
+    "skill": "Business recommendations",
+    "question": "Your analysis shows that customers acquired through paid search have a 40% higher LTV than those from social media, but social drives 3x more volume. How would you frame this trade-off for the marketing budget discussion and what would you recommend?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Business Analytics",
+    "difficulty": "Mid",
+    "skill": "Funnel analysis",
+    "question": "Your e-commerce site has a 5-step checkout funnel. You see a sharp drop at step 3 (payment information). How would you structure your analysis to diagnose the root cause, and what data would you need beyond the funnel conversion rates?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Business Analytics",
+    "difficulty": "Mid",
+    "skill": "Churn analysis",
+    "question": "Monthly churn has increased from 2.1% to 3.4% over 6 months. Leadership asks for a root cause analysis. Describe the full analytical approach you'd take, including the data sources you'd examine and the hypotheses you'd test."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Business Analytics",
+    "difficulty": "Mid",
+    "skill": "Product analytics",
+    "question": "A new feature was launched 60 days ago. The product team asks whether users who use the feature are more engaged. How would you design this analysis to avoid self-selection bias, and what metrics would you use to measure engagement?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Business Analytics",
+    "difficulty": "Mid",
+    "skill": "Price sensitivity analysis",
+    "question": "The pricing team is considering raising subscription prices by 15%. They ask you to assess how this might affect revenue. What historical data analysis would you run, and what are the limitations of using past data to predict price elasticity?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Business Analytics",
+    "difficulty": "Senior",
+    "skill": "Strategic metric design",
+    "question": "A business unit is growing revenue fast but profitability keeps declining. Leadership asks you to build an analytical framework to identify which customer segments, products, and channels are value-creating vs. value-destroying. How would you approach this?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Business Analytics",
+    "difficulty": "Senior",
+    "skill": "Cross-functional analytics",
+    "question": "You're working with Sales, Marketing, and Finance simultaneously, and each team has a different definition of 'a customer.' This is causing inconsistencies in reports. How do you lead the effort to resolve this, and what process do you put in place?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Business Analytics",
+    "difficulty": "Senior",
+    "skill": "Translating business problems",
+    "question": "The Chief Revenue Officer walks into your office and says 'I feel like we're leaving money on the table with existing customers, but I don't know where.' How do you take this vague business problem and translate it into a structured analytical project?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Business Analytics",
+    "difficulty": "Senior",
+    "skill": "Attribution modeling",
+    "question": "Marketing is using last-touch attribution for all channel reporting. You know this doesn't capture the full customer journey. How do you make the case for a more sophisticated attribution model, and what are the practical challenges of implementing one?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Business Analytics",
+    "difficulty": "Senior",
+    "skill": "Stakeholder management",
+    "question": "A senior VP is insisting on a conclusion that your analysis does not support. They want you to re-run the analysis until you 'get the right answer.' How do you handle this situation professionally, and what steps do you take to protect the integrity of your analysis?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Excel & Spreadsheets",
+    "difficulty": "Junior",
+    "skill": "VLOOKUP and XLOOKUP",
+    "question": "You have two spreadsheets: one with product IDs and prices, and another with order data containing product IDs. Write the formula you'd use to pull the price into the orders sheet, and explain the difference between VLOOKUP and XLOOKUP."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Excel & Spreadsheets",
+    "difficulty": "Junior",
+    "skill": "Pivot Tables",
+    "question": "You have a flat CSV with 10,000 rows of sales transactions. Your manager asks for a summary showing total sales by product category and region. Walk me through how you'd build this in Excel, including how you'd set up the Pivot Table."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Excel & Spreadsheets",
+    "difficulty": "Junior",
+    "skill": "IF and nested formulas",
+    "question": "You need to add a 'Tier' column to a spreadsheet that assigns 'Gold' for customers with purchases over $10,000, 'Silver' for $5,000-$10,000, and 'Bronze' for under $5,000. Write the Excel formula for this."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Excel & Spreadsheets",
+    "difficulty": "Junior",
+    "skill": "Conditional formatting",
+    "question": "You have a sales tracker where you need to visually highlight any cell where sales fell more than 10% below target. Describe how you'd set this up using conditional formatting without manually checking each cell."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Excel & Spreadsheets",
+    "difficulty": "Junior",
+    "skill": "Data validation",
+    "question": "You're building a data entry template for regional sales managers to fill in monthly numbers. How would you use Excel's data validation features to prevent them from entering text in numeric fields or dates in the wrong format?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Excel & Spreadsheets",
+    "difficulty": "Mid",
+    "skill": "Advanced formulas",
+    "question": "You have a dataset where you need to calculate the sum of sales only for the rows that match both a specific region AND a specific product category. Write the Excel formula you'd use and explain why SUMIF alone wouldn't work here."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Excel & Spreadsheets",
+    "difficulty": "Mid",
+    "skill": "Power Query",
+    "question": "Every week you receive three CSV files from different departments that need to be combined, cleaned (remove blank rows, standardize column names), and loaded into a summary sheet. How would you use Power Query to automate this process?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Excel & Spreadsheets",
+    "difficulty": "Mid",
+    "skill": "Dynamic dashboards",
+    "question": "You're building an Excel dashboard where users can select a region from a dropdown and all charts and summary tables automatically update for that region. How would you build this without VBA — what Excel features would you combine?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Excel & Spreadsheets",
+    "difficulty": "Mid",
+    "skill": "Statistical functions",
+    "question": "You need to calculate a 13-week moving average of weekly revenue in Excel and display it alongside the actual weekly values in a chart. Walk through how you'd set this up including the formula and chart configuration."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Excel & Spreadsheets",
+    "difficulty": "Mid",
+    "skill": "Troubleshooting",
+    "question": "A colleague sends you an Excel file where a SUM formula that should return $250,000 is returning $0. The data looks correct visually. What are the most likely causes and how would you diagnose and fix this?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Excel & Spreadsheets",
+    "difficulty": "Senior",
+    "skill": "Excel vs. better tools",
+    "question": "A team of analysts is managing a critical financial model in a 45MB Excel file with dozens of linked sheets, complex macros, and no version control. Leadership asks you to assess the risks and recommend a path forward. What do you tell them?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Excel & Spreadsheets",
+    "difficulty": "Senior",
+    "skill": "Financial modeling",
+    "question": "You're asked to build a scenario analysis model in Excel that projects revenue for 3 years under optimistic, base, and pessimistic assumptions. How do you structure the model so it's easy to update, audit, and present to the CFO?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Excel & Spreadsheets",
+    "difficulty": "Senior",
+    "skill": "Audit and governance",
+    "question": "A financial report produced in Excel has been showing incorrect numbers for 3 months before anyone noticed. How do you conduct a post-mortem on what went wrong in the Excel-based process, and what controls do you put in place to prevent recurrence?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Excel & Spreadsheets",
+    "difficulty": "Senior",
+    "skill": "Transitioning workflows",
+    "question": "Your team relies heavily on manual Excel reports that take 8 hours per week to update. You want to migrate these to an automated solution. How do you build the business case, plan the migration, and manage the transition for stakeholders who are comfortable with Excel?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Excel & Spreadsheets",
+    "difficulty": "Senior",
+    "skill": "Advanced analytics in Excel",
+    "question": "Without using Python or R, how far can you push Excel for statistical analysis? What built-in tools (Analysis ToolPak, Solver, etc.) are available, and where are the hard limits that would force you to move to a different tool?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Databases & Data Warehousing",
+    "difficulty": "Junior",
+    "skill": "Database fundamentals",
+    "question": "What is the difference between a primary key and a foreign key? Give a real-world example using a retail business scenario to explain why both are important for data integrity."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Databases & Data Warehousing",
+    "difficulty": "Junior",
+    "skill": "OLTP vs OLAP",
+    "question": "A colleague says 'the reporting queries are slowing down our transactional database.' Can you explain why this happens and describe the difference between a transactional database and a data warehouse in plain terms?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Databases & Data Warehousing",
+    "difficulty": "Junior",
+    "skill": "Indexes",
+    "question": "You've been told to add an index to a table to speed up a slow query. In simple terms, what does an index do, and are there any situations where adding an index could actually hurt performance?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Databases & Data Warehousing",
+    "difficulty": "Junior",
+    "skill": "Data types",
+    "question": "You're creating a new table to store customer orders. Walk through the data types you'd choose for columns like order_id, customer_name, order_date, total_amount, and is_returned, and explain why each choice matters."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Databases & Data Warehousing",
+    "difficulty": "Junior",
+    "skill": "Basic ETL understanding",
+    "question": "Your manager mentions that new data arrives each morning through an 'ETL pipeline.' Can you explain in your own words what ETL means, and what might happen to your reports if one of these three stages fails?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Databases & Data Warehousing",
+    "difficulty": "Mid",
+    "skill": "Star schema",
+    "question": "You're analyzing data in a star schema data warehouse with a sales fact table and dimension tables for date, product, store, and customer. Write a SQL query that finds total sales by product category and quarter for the past year, joining the necessary tables."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Databases & Data Warehousing",
+    "difficulty": "Mid",
+    "skill": "ETL concepts",
+    "question": "Your daily ETL job that populates the reporting database failed silently last night — no error message, but the data wasn't updated. How do you detect this happened, what's your immediate response, and how do you prevent silent failures in the future?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Databases & Data Warehousing",
+    "difficulty": "Mid",
+    "skill": "Slowly changing dimensions",
+    "question": "A customer changes their address. In your data warehouse, you need to be able to report on sales tied to their old address (for historical accuracy) and their new one (for current campaigns). How would you handle this using Slowly Changing Dimensions?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Databases & Data Warehousing",
+    "difficulty": "Mid",
+    "skill": "Partitioning and performance",
+    "question": "A fact table in your data warehouse has 2 billion rows and most queries filter by date. Your queries are still slow despite indexing. What is table partitioning, and how would implementing it on the date column improve performance?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Databases & Data Warehousing",
+    "difficulty": "Mid",
+    "skill": "Database normalization",
+    "question": "You inherit a database where customer name and address are stored in every single order record instead of in a separate customers table. What problems does this cause and how would you restructure the schema to fix them?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Databases & Data Warehousing",
+    "difficulty": "Senior",
+    "skill": "Data warehouse design",
+    "question": "You're designing a data warehouse from scratch for a SaaS company with data from CRM, billing, product usage, and support systems. Walk through your schema design decisions, including how you'd handle cross-domain metrics like customer health scores."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Databases & Data Warehousing",
+    "difficulty": "Senior",
+    "skill": "Modern data stack",
+    "question": "The company is evaluating whether to move from a traditional on-premise data warehouse to a cloud-based solution (Snowflake, BigQuery, or Redshift). What factors would you weigh in this decision, and what are the key architectural differences that affect an analyst's day-to-day work?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Databases & Data Warehousing",
+    "difficulty": "Senior",
+    "skill": "Data modeling strategy",
+    "question": "Your team is debating between Kimball's dimensional modeling (star schema) and Inmon's enterprise data warehouse approach for a new data warehouse project. What are the key trade-offs and how would you decide which approach fits your organization?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Databases & Data Warehousing",
+    "difficulty": "Senior",
+    "skill": "Data governance",
+    "question": "Your company is subject to GDPR and a customer requests deletion of all their data. How do you handle this request across a complex data warehouse that has copies of data in multiple layers (raw, staging, reporting), backup tables, and aggregated datasets?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Databases & Data Warehousing",
+    "difficulty": "Senior",
+    "skill": "Query cost and optimization",
+    "question": "Your company's Snowflake costs doubled this quarter. Leadership asks you to investigate and reduce costs without degrading analyst productivity. Walk through the diagnostic steps and cost optimization strategies you would pursue."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Reporting & BI Tools",
+    "difficulty": "Junior",
+    "skill": "Basic Tableau/Power BI",
+    "question": "You're building your first Tableau dashboard to show monthly sales by region. What steps do you take from connecting to the data source to publishing the final dashboard, and what would you check before sharing it with users?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Reporting & BI Tools",
+    "difficulty": "Junior",
+    "skill": "Calculated fields",
+    "question": "In Power BI or Tableau, you need to calculate profit margin (profit divided by revenue) as a new field to display on your dashboard. How do you create this calculated field, and what potential issues might arise with division by zero?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Reporting & BI Tools",
+    "difficulty": "Junior",
+    "skill": "Filters and parameters",
+    "question": "A dashboard you built shows all-time data by default, but users want to be able to filter to the last 7, 30, or 90 days. How would you add this filter in Tableau or Power BI so users can switch between time ranges interactively?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Reporting & BI Tools",
+    "difficulty": "Junior",
+    "skill": "Connecting to data sources",
+    "question": "You need to connect Power BI to three data sources: a SQL Server database, a Google Sheets file, and a CSV that updates daily. Describe the steps for each connection type and which one might cause issues when the data updates."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Reporting & BI Tools",
+    "difficulty": "Junior",
+    "skill": "Report distribution",
+    "question": "You've built a weekly performance report in Power BI. Your manager asks you to make sure all 15 regional managers receive it every Monday morning automatically. What are the options for automating report distribution in Power BI?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Reporting & BI Tools",
+    "difficulty": "Mid",
+    "skill": "DAX or Tableau LOD",
+    "question": "In Power BI, you need to calculate each customer's share of total revenue, where the total doesn't change when users filter by region. How would you write a DAX measure that ignores the region filter context to calculate the correct percentage?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Reporting & BI Tools",
+    "difficulty": "Mid",
+    "skill": "Dashboard performance",
+    "question": "A Power BI report used by 50 people is slow to load. You've noticed the data model has many-to-many relationships and several highly complex DAX measures. What steps would you take to diagnose and improve performance?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Reporting & BI Tools",
+    "difficulty": "Mid",
+    "skill": "Data modeling in BI tools",
+    "question": "In Power BI, you have sales data and budget data that are at different granularities (sales at daily level, budget at monthly level). How do you model this correctly in Power BI's data model to avoid incorrect totals when visualizing both together?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Reporting & BI Tools",
+    "difficulty": "Mid",
+    "skill": "Report design for stakeholders",
+    "question": "You're building a dashboard for the operations team and another for the C-suite using the same underlying data. How does your design approach differ for each audience, and how do you structure your BI workspace to serve both without duplication?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Reporting & BI Tools",
+    "difficulty": "Mid",
+    "skill": "Row-level security",
+    "question": "You're building a Power BI sales dashboard where each regional manager should only see data for their own region, but the national sales director should see everything. How do you implement row-level security to enforce these access rules?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Reporting & BI Tools",
+    "difficulty": "Senior",
+    "skill": "Enterprise BI strategy",
+    "question": "Your company has 50+ Power BI reports built by different teams with inconsistent metrics, duplicated data sources, and no governance. Leadership asks you to lead a BI governance initiative. What would your plan look like, and how would you get buy-in from resistant teams?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Reporting & BI Tools",
+    "difficulty": "Senior",
+    "skill": "Tool selection",
+    "question": "The company is deciding whether to standardize on Power BI, Tableau, or Looker. You've been asked to lead the evaluation. What criteria would you use, how would you structure the assessment, and how would you handle stakeholders who are already committed to different tools?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Reporting & BI Tools",
+    "difficulty": "Senior",
+    "skill": "Metrics layer",
+    "question": "Multiple teams define 'active user' differently and it's causing inconsistent numbers across dashboards. How would you design and implement a centralized semantic layer or metrics layer to enforce a single definition across all BI reports?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Reporting & BI Tools",
+    "difficulty": "Senior",
+    "skill": "Scalability and architecture",
+    "question": "You're migrating 80 reports from an on-premise SSRS system to Power BI in the cloud. Describe the migration strategy, including how you'd prioritize which reports to migrate, how you'd handle deprecated data sources, and how you'd manage the change for end users."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Reporting & BI Tools",
+    "difficulty": "Senior",
+    "skill": "Embedded analytics",
+    "question": "Your product team wants to embed analytics dashboards directly into your SaaS product so customers can view their own usage data. What are the architectural options for embedded analytics, what are the security implications, and how do you make the business case for this investment?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "A/B Testing & Experimentation",
+    "difficulty": "Junior",
+    "skill": "A/B test basics",
+    "question": "Your product team ran an A/B test on a checkout button — Group A saw a blue button and Group B saw a green button. Group B had a conversion rate of 4.2% vs 3.8% for Group A. How would you begin evaluating whether this is a meaningful difference?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "A/B Testing & Experimentation",
+    "difficulty": "Junior",
+    "skill": "Control vs treatment",
+    "question": "Someone asks 'why do we need a control group in an A/B test? Can't we just measure the new version and see if it improves?' How would you explain the importance of a control group and what could go wrong without one?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "A/B Testing & Experimentation",
+    "difficulty": "Junior",
+    "skill": "Sample size",
+    "question": "A product manager wants to run an A/B test for only 3 days because they're in a hurry. The metric being measured is weekly subscription conversions. What concerns would you raise, and why does test duration matter beyond just having enough users?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "A/B Testing & Experimentation",
+    "difficulty": "Junior",
+    "skill": "Randomization",
+    "question": "After an A/B test, you notice that Group B had a significantly higher proportion of mobile users than Group A. Why is this a problem, and what does it tell you about how the users were assigned to groups?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "A/B Testing & Experimentation",
+    "difficulty": "Junior",
+    "skill": "Metric selection",
+    "question": "A team is running an A/B test on a new email subject line. They want to use 'email open rate' as their success metric. What concerns would you raise about this metric, and what alternative or additional metrics would you suggest tracking?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "A/B Testing & Experimentation",
+    "difficulty": "Mid",
+    "skill": "Statistical significance",
+    "question": "Your A/B test shows p=0.04, which is below the 0.05 threshold. The product manager says 'we're 96% confident the new version is better, let's ship it.' What is wrong with this interpretation and how do you correctly explain the p-value result?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "A/B Testing & Experimentation",
+    "difficulty": "Mid",
+    "skill": "Experiment design",
+    "question": "You're designing an A/B test to evaluate whether a new onboarding flow increases 30-day user retention. Walk through your full experiment design: hypothesis, randomization unit, sample size calculation, test duration, and success metrics."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "A/B Testing & Experimentation",
+    "difficulty": "Mid",
+    "skill": "Novelty effect",
+    "question": "Your A/B test shows a large positive effect in week 1 that shrinks significantly by week 4. What phenomenon might explain this pattern, and how do you account for it when deciding whether to ship the new feature?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "A/B Testing & Experimentation",
+    "difficulty": "Mid",
+    "skill": "Multiple testing problem",
+    "question": "Your team ran an A/B test tracking 12 different metrics. Three of them showed statistically significant results at p<0.05. A stakeholder wants to celebrate all three wins. What statistical concern do you flag, and how would you address it?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "A/B Testing & Experimentation",
+    "difficulty": "Mid",
+    "skill": "Two-sided vs one-sided tests",
+    "question": "Before running an A/B test, a stakeholder asks whether you'll use a one-sided or two-sided hypothesis test. Explain the difference, give a scenario where each is appropriate, and describe the practical implications for your experiment."
+  },
+  {
+    "role": "Data Analyst",
+    "category": "A/B Testing & Experimentation",
+    "difficulty": "Senior",
+    "skill": "Experimentation at scale",
+    "question": "Your company runs 50+ simultaneous A/B tests on a user base of 2 million. What infrastructure, processes, and statistical safeguards need to be in place to ensure experiments don't interfere with each other and results remain trustworthy?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "A/B Testing & Experimentation",
+    "difficulty": "Senior",
+    "skill": "Network effects in experiments",
+    "question": "You're testing a new social sharing feature in a social network, but users in the control group can receive shares from users in the treatment group. How does this violate the Stable Unit Treatment Value Assumption (SUTVA), and what experimental design would you use to mitigate this?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "A/B Testing & Experimentation",
+    "difficulty": "Senior",
+    "skill": "Long-term experiment effects",
+    "question": "A pricing experiment showed a positive short-term revenue increase, but you suspect it might be cannibalizing long-term subscription renewals. How do you design a framework to detect both short-term and long-term effects of pricing experiments?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "A/B Testing & Experimentation",
+    "difficulty": "Senior",
+    "skill": "Experiment culture",
+    "question": "The head of product pushes back on A/B testing because 'it slows us down and we already know our customers.' How do you make the organizational and analytical case for a rigorous experimentation culture, including how you'd address concerns about velocity?"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "A/B Testing & Experimentation",
+    "difficulty": "Senior",
+    "skill": "Causal inference without RCT",
+    "question": "A new feature was rolled out to all users at once without an A/B test — leadership wants to know its causal impact on revenue. You can't run a proper experiment now. What quasi-experimental methods (e.g., difference-in-differences, synthetic control) would you consider to estimate causal impact from observational data?"
+  }
+]
