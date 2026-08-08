@@ -1,13 +1,11 @@
-from openai import OpenAI
-from dotenv import load_dotenv
+from services.ai_client import AIAND_MODEL, client
 
-import os
 
-load_dotenv()
+def _fallback_followup(question: str, answer: str, evaluation: dict) -> str:
+    if evaluation.get("technical_accuracy", 0) <= 3:
+        return "Can you walk me through the tradeoffs you considered and the simplest correct approach?"
 
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-)
+    return f"Could you go one level deeper on {question.lower().rstrip('.')}"
 
 
 def generate_followup(
@@ -37,9 +35,13 @@ Rules:
 - Return ONLY the follow-up question.
 """
 
-    response = client.responses.create(
-        model="gpt-4.1-mini",
-        input=prompt
-    )
+    try:
+        response = client.responses.create(
+            model=AIAND_MODEL,
+            input=prompt
+        )
 
-    return response.output_text.strip()
+        return response.output_text.strip()
+    except Exception as exc:
+        print(f"OpenAI follow-up unavailable, using fallback: {exc}")
+        return _fallback_followup(question, answer, evaluation)

@@ -1,17 +1,18 @@
 import json
+from pathlib import Path
+
+
+QUESTION_BANK_DIR = Path(__file__).resolve().parent.parent / "question_bank"
 
 
 def load_questions(role: str):
 
     file_name = role.lower().replace(" ", "_")
+    question_file = QUESTION_BANK_DIR / f"{file_name}.json"
 
     try:
 
-        with open(
-            f"question_bank/{file_name}.json",
-            "r",
-            encoding="utf-8"
-        ) as f:
+        with question_file.open("r", encoding="utf-8") as f:
 
             return json.load(f)
 

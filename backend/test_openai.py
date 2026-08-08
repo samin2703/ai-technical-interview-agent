@@ -1,15 +1,7 @@
-from openai import OpenAI
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-)
+from services.ai_client import AIAND_MODEL, client
 
 response = client.responses.create(
-    model="gpt-4.1-mini",
+    model=AIAND_MODEL,
     input="Say hello in one sentence."
 )
 

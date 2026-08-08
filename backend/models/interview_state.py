@@ -25,6 +25,14 @@ class InterviewState(BaseModel):
 
     weaknesses: List[str] = Field(default_factory=list)
 
+    conversation_history: List[Dict] = Field(default_factory=list)
+
+    conversation_stage: str = "opening"
+
+    warmup_questions: List[str] = Field(default_factory=list)
+
+    warmup_index: int = 0
+
     awaiting_followup: bool = False
 
     current_followup: str = ""

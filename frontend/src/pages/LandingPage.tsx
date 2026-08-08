@@ -1,5 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
+import SignedInBanner from "../components/SignedInBanner";
+
 export default function LandingPage() {
   const navigate = useNavigate();
 
@@ -10,6 +12,10 @@ export default function LandingPage() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(56,189,248,0.18),_transparent_28%),radial-gradient(circle_at_top_right,_rgba(168,85,247,0.16),_transparent_30%),linear-gradient(180deg,_rgba(15,23,42,0.96),_rgba(2,6,23,1))]" />
       <div className="absolute left-1/2 top-0 h-72 w-72 -translate-x-1/2 rounded-full bg-cyan-400/20 blur-3xl" />
       <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-indigo-500/15 blur-3xl" />
+
+      <div className="absolute right-6 top-6 z-20 w-[min(92vw,22rem)]">
+        <SignedInBanner compact />
+      </div>
 
       <div className="relative mx-auto flex min-h-screen max-w-7xl items-center px-6 py-10 sm:px-8 lg:px-12">
         <div className="grid w-full items-center gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-14">
